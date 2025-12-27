@@ -1,0 +1,25 @@
+{
+    "version": 1.0,
+    "name": "fluid",
+    "description": "Defines a fluid.",
+    "parameters": {
+        "ColorReference": {
+            "name": "ColorReference"
+        },
+        "DisplayName": {
+            "name": "DisplayName"
+        },
+        "Categories": {
+            "name": "Categories"
+        },
+        "Properties": {
+            "name": "Properties"
+        },
+        "Poison": {
+            "name": "Poison"
+        },
+        "BlendWhiteList": {
+            "name": "BlendWhiteList"
+        }
+    }
+}

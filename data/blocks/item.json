@@ -151,46 +151,6 @@
                 "weapon"
             ]
         },
-        "ScriptType": {
-            "name": "ScriptType",
-            "itemTypes": [
-                "alarmclock",
-                "alarmclockclothing",
-                "animal",
-                "clothing",
-                "container",
-                "drainable",
-                "food",
-                "key",
-                "literature",
-                "map",
-                "moveable",
-                "normal",
-                "radio",
-                "weapon",
-                "weaponpart"
-            ]
-        },
-        "SourceFile": {
-            "name": "SourceFile",
-            "itemTypes": [
-                "alarmclock",
-                "alarmclockclothing",
-                "animal",
-                "clothing",
-                "container",
-                "drainable",
-                "food",
-                "key",
-                "literature",
-                "map",
-                "moveable",
-                "normal",
-                "radio",
-                "weapon",
-                "weaponpart"
-            ]
-        },
         "BodyLocation": {
             "name": "BodyLocation",
             "itemTypes": [

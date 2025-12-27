@@ -2,5 +2,5 @@
     "version": 1.0,
     "name": "fixing",
     "description": "Defines how an item can be repaired or fixed.",
-    "parameters": []
+    "parameters": {}
 }
