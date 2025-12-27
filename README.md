@@ -1,0 +1,1 @@
+Provides information regarding various script blocks and parameters of Project Zomboid [scripts](https://pzwiki.net/wiki/Scripts) system.
