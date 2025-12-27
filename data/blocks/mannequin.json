@@ -1,0 +1,28 @@
+{
+    "version": 1.0,
+    "name": "mannequin",
+    "description": "Defines a mannequin tile properties.",
+    "parameters": [
+        {
+            "name": "female"
+        },
+        {
+            "name": "model"
+        },
+        {
+            "name": "texture"
+        },
+        {
+            "name": "animSet"
+        },
+        {
+            "name": "animState"
+        },
+        {
+            "name": "pose"
+        },
+        {
+            "name": "outfit"
+        }
+    ]
+}

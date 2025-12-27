@@ -22,7 +22,10 @@ class BlockData:
     def save_json(self):
         data = self.data
         if "parameters" not in data:
-            data["parameters"] = {}
+            data["parameters"] = []
+        else:
+            if type(data["parameters"]) is dict:
+                data["parameters"] = list(data["parameters"].values()) 
         parsed_item_path = BLOCKS[self.key]["parser_data"]
         self.parser(parsed_item_path, data["parameters"])
         with open(self.path, "w") as f:
@@ -30,7 +33,8 @@ class BlockData:
 
 if __name__ == "__main__":
     for block_key, block_info in BLOCKS.items():
-        if "parser_function" not in block_info:
+        # skip if not parsable
+        if block_info["parser_function"] is None:
             continue
 
         block_data = BlockData.get(block_key, block_info)

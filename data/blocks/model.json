@@ -2,54 +2,54 @@
     "version": 1.0,
     "name": "model",
     "description": "Defines a 3D model properties.",
-    "parameters": {
-        "mesh": {
+    "parameters": [
+        {
             "name": "mesh"
         },
-        "texture": {
+        {
             "name": "texture"
         },
-        "attachment": {
+        {
             "name": "attachment"
         },
-        "scale": {
+        {
             "name": "scale"
         },
-        "shader": {
+        {
             "name": "shader"
         },
-        "static": {
+        {
             "name": "static"
         },
-        "animationsMesh": {
+        {
             "name": "animationsMesh"
         },
-        "undoCoreScale": {
+        {
             "name": "undoCoreScale"
         },
-        "postProcess": {
+        {
             "name": "postProcess"
         },
-        "ColorRed": {
+        {
             "name": "ColorRed"
         },
-        "ColorGreen": {
+        {
             "name": "ColorGreen"
         },
-        "ColorBlue": {
+        {
             "name": "ColorBlue"
         },
-        "invertX": {
+        {
             "name": "invertX"
         },
-        "boneWeight": {
+        {
             "name": "boneWeight"
         },
-        "specialKeyRing": {
+        {
             "name": "specialKeyRing"
         },
-        "cullFace": {
+        {
             "name": "cullFace"
         }
-    }
+    ]
 }

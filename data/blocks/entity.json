@@ -1,0 +1,136 @@
+{
+    "version": 1.0,
+    "name": "entity",
+    "description": "Defines a tile with special properties.",
+    "parameters": [
+        {
+            "name": "name"
+        },
+        {
+            "name": "inputs"
+        },
+        {
+            "name": "outputs"
+        },
+        {
+            "name": "timedAction"
+        },
+        {
+            "name": "time"
+        },
+        {
+            "name": "SkillRequired"
+        },
+        {
+            "name": "xpAward"
+        },
+        {
+            "name": "category"
+        },
+        {
+            "name": "tags"
+        },
+        {
+            "name": "Tooltip"
+        },
+        {
+            "name": "spriteOutputs"
+        },
+        {
+            "name": "skillBaseHealth"
+        },
+        {
+            "name": "UiConfig"
+        },
+        {
+            "name": "Resources"
+        },
+        {
+            "name": "DryingCraftLogic"
+        },
+        {
+            "name": "health"
+        },
+        {
+            "name": "SpriteOverlayConfig"
+        },
+        {
+            "name": "CraftBenchSounds"
+        },
+        {
+            "name": "isProp"
+        },
+        {
+            "name": "CraftBench"
+        },
+        {
+            "name": "isThumpable"
+        },
+        {
+            "name": "ContextMenuConfig"
+        },
+        {
+            "name": "OnCreate"
+        },
+        {
+            "name": "OnIsValid"
+        },
+        {
+            "name": "TimedActionOnIsValid"
+        },
+        {
+            "name": "corner"
+        },
+        {
+            "name": "dontNeedFrame"
+        },
+        {
+            "name": "BreakSound"
+        },
+        {
+            "name": "OnAddToMenu"
+        },
+        {
+            "name": "canBePadlocked"
+        },
+        {
+            "name": "needToBeAgainstWall"
+        },
+        {
+            "name": "NeedToBeLearn"
+        },
+        {
+            "name": "needWindowFrame"
+        },
+        {
+            "name": "FluidContainer"
+        },
+        {
+            "name": "bonusHealth"
+        },
+        {
+            "name": "lightRadius"
+        },
+        {
+            "name": "lightsourceItem"
+        },
+        {
+            "name": "lightsourceFuel"
+        },
+        {
+            "name": "debugItem"
+        },
+        {
+            "name": "LogicClass"
+        },
+        {
+            "name": "previousStage"
+        },
+        {
+            "name": "isPole"
+        },
+        {
+            "name": "WallCoveringConfig"
+        }
+    ]
+}

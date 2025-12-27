@@ -1,0 +1,22 @@
+{
+    "version": 1.0,
+    "name": "sound",
+    "description": "Defines a sound properties.",
+    "parameters": [
+        {
+            "name": "category"
+        },
+        {
+            "name": "clip"
+        },
+        {
+            "name": "master"
+        },
+        {
+            "name": "loop"
+        },
+        {
+            "name": "maxInstancesPerEmitter"
+        }
+    ]
+}

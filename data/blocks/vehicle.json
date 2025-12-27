@@ -1,0 +1,205 @@
+{
+    "version": 1.0,
+    "name": "vehicle",
+    "description": "Defines a vehicle.",
+    "parameters": [
+        {
+            "name": "neverSpawnKey"
+        },
+        {
+            "name": "model"
+        },
+        {
+            "name": "spawnOffsetY"
+        },
+        {
+            "name": "skin"
+        },
+        {
+            "name": "extents"
+        },
+        {
+            "name": "mass"
+        },
+        {
+            "name": "centerOfMassOffset"
+        },
+        {
+            "name": "shadowExtents"
+        },
+        {
+            "name": "shadowOffset"
+        },
+        {
+            "name": "physicsChassisShape"
+        },
+        {
+            "name": "attachment"
+        },
+        {
+            "name": "part"
+        },
+        {
+            "name": "useChassisPhysicsCollision"
+        },
+        {
+            "name": "physics"
+        },
+        {
+            "name": "mechanicType"
+        },
+        {
+            "name": "engineRepairLevel"
+        },
+        {
+            "name": "playerDamageProtection"
+        },
+        {
+            "name": "engineRPMType"
+        },
+        {
+            "name": "textureMask"
+        },
+        {
+            "name": "textureLights"
+        },
+        {
+            "name": "textureDamage1Overlay"
+        },
+        {
+            "name": "textureDamage2Overlay"
+        },
+        {
+            "name": "textureDamage1Shell"
+        },
+        {
+            "name": "textureDamage2Shell"
+        },
+        {
+            "name": "textureRust"
+        },
+        {
+            "name": "sound"
+        },
+        {
+            "name": "engineForce"
+        },
+        {
+            "name": "maxSpeed"
+        },
+        {
+            "name": "engineLoudness"
+        },
+        {
+            "name": "engineQuality"
+        },
+        {
+            "name": "brakingForce"
+        },
+        {
+            "name": "stoppingMovementForce"
+        },
+        {
+            "name": "rollInfluence"
+        },
+        {
+            "name": "steeringIncrement"
+        },
+        {
+            "name": "steeringClamp"
+        },
+        {
+            "name": "suspensionStiffness"
+        },
+        {
+            "name": "suspensionCompression"
+        },
+        {
+            "name": "suspensionDamping"
+        },
+        {
+            "name": "maxSuspensionTravelCm"
+        },
+        {
+            "name": "suspensionRestLength"
+        },
+        {
+            "name": "wheelFriction"
+        },
+        {
+            "name": "frontEndHealth"
+        },
+        {
+            "name": "rearEndHealth"
+        },
+        {
+            "name": "seats"
+        },
+        {
+            "name": "wheel"
+        },
+        {
+            "name": "area"
+        },
+        {
+            "name": "gearRatioCount"
+        },
+        {
+            "name": "gearRatioR"
+        },
+        {
+            "name": "gearRatio1"
+        },
+        {
+            "name": "gearRatio2"
+        },
+        {
+            "name": "gearRatio3"
+        },
+        {
+            "name": "gearRatio4"
+        },
+        {
+            "name": "extentsOffset"
+        },
+        {
+            "name": "lightbar"
+        },
+        {
+            "name": "offRoadEfficiency"
+        },
+        {
+            "name": "isSmallVehicle"
+        },
+        {
+            "name": "zombieType"
+        },
+        {
+            "name": "passenger"
+        },
+        {
+            "name": "specialKeyRing"
+        },
+        {
+            "name": "carMechanicsOverlay"
+        },
+        {
+            "name": "carModelName"
+        },
+        {
+            "name": "specialKeyRingChance"
+        },
+        {
+            "name": "gearRatio5"
+        },
+        {
+            "name": "specialLootChance"
+        },
+        {
+            "name": "animalTrailerSize"
+        },
+        {
+            "name": "seatNumber"
+        }
+    ]
+}

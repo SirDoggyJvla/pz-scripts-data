@@ -1,0 +1,37 @@
+{
+    "version": 1.0,
+    "name": "evolvedrecipe",
+    "description": "Defines a dynamic recipe.",
+    "parameters": [
+        {
+            "name": "BaseItem"
+        },
+        {
+            "name": "MaxItems"
+        },
+        {
+            "name": "ResultItem"
+        },
+        {
+            "name": "Cookable"
+        },
+        {
+            "name": "Name"
+        },
+        {
+            "name": "Template"
+        },
+        {
+            "name": "MinimumWater"
+        },
+        {
+            "name": "CanAddSpicesEmpty"
+        },
+        {
+            "name": "AddIngredientIfCooked"
+        },
+        {
+            "name": "AddIngredientSound"
+        }
+    ]
+}

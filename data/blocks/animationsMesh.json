@@ -1,0 +1,22 @@
+{
+    "version": 1.0,
+    "name": "animationsMesh",
+    "description": "Defines an animated mesh, usually for characters or animals.",
+    "parameters": [
+        {
+            "name": "meshFile"
+        },
+        {
+            "name": "animationDirectory"
+        },
+        {
+            "name": "animationPrefix"
+        },
+        {
+            "name": "keepMeshAnimations"
+        },
+        {
+            "name": "postProcess"
+        }
+    ]
+}

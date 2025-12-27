@@ -1,0 +1,79 @@
+{
+    "version": 1.0,
+    "name": "craftRecipe",
+    "description": "Defines a crafting recipe.",
+    "parameters": [
+        {
+            "name": "name"
+        },
+        {
+            "name": "inputs"
+        },
+        {
+            "name": "outputs"
+        },
+        {
+            "name": "itemMappers"
+        },
+        {
+            "name": "time"
+        },
+        {
+            "name": "timedAction"
+        },
+        {
+            "name": "tags"
+        },
+        {
+            "name": "category"
+        },
+        {
+            "name": "overlayStyle"
+        },
+        {
+            "name": "default"
+        },
+        {
+            "name": "OnCreate"
+        },
+        {
+            "name": "SkillRequired"
+        },
+        {
+            "name": "NeedToBeLearn"
+        },
+        {
+            "name": "xpAward"
+        },
+        {
+            "name": "AutoLearnAll"
+        },
+        {
+            "name": "MetaRecipe"
+        },
+        {
+            "name": "OnTest"
+        },
+        {
+            "name": "Tooltip"
+        },
+        {
+            "name": "AutoLearnAny"
+        },
+        {
+            "name": "recipeGroup"
+        },
+        {
+            "name": "AllowBatchCraft"
+        },
+        {
+            "name": "Icon"
+        },
+        {
+            "name": "ResearchSkillLevel"
+        },
+        {
+            "name": "ResearchAny"
+        }
+    ]
+}

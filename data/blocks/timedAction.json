@@ -1,0 +1,43 @@
+{
+    "version": 1.0,
+    "name": "timedAction",
+    "description": "Defines a callable action sound and/or animation.",
+    "parameters": [
+        {
+            "name": "metabolics"
+        },
+        {
+            "name": "actionAnim"
+        },
+        {
+            "name": "sound"
+        },
+        {
+            "name": "prop1"
+        },
+        {
+            "name": "prop2"
+        },
+        {
+            "name": "muscleStrainFactor"
+        },
+        {
+            "name": "muscleStrainSkill"
+        },
+        {
+            "name": "muscleStrainParts"
+        },
+        {
+            "name": "soundTime"
+        },
+        {
+            "name": "animVarKey"
+        },
+        {
+            "name": "animVarVal"
+        },
+        {
+            "name": "completionSound"
+        }
+    ]
+}
