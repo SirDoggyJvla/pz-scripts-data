@@ -30,8 +30,6 @@ def find_item_parameters(parsed_path: str, parameters: list) -> list:
 
     uniques = {}
     for item_id, item_data in parsed_data.items():
-        if item_id == "version": continue
-
         for param_key in item_data.keys():
             lower_key = param_key.lower()
 
@@ -65,6 +63,42 @@ def find_item_parameters(parsed_path: str, parameters: list) -> list:
     
     return parameters
 
+_ignore_params_recipe = ["name", "default"]
+def find_craftRecipe_parameters(parsed_path: str, parameters: list) -> list:
+    # parse the data from the parser output
+    with open(parsed_path, "r") as f:
+        parsed_data = _clean_parsed(json.load(f))
+        echo.info(f"Loaded parsed data from {parsed_path}")
+
+    uniques = {}
+    existing = load_existing(parameters)
+    for model_id, model_data in parsed_data.items():
+        for param_key in model_data.keys():
+            lower_key = param_key.lower()
+            if lower_key in _ignore_params_recipe: continue
+
+            # check if the parameter name has multiple case variations
+            if lower_key not in uniques:
+                uniques[lower_key] = param_key
+            else:
+                if uniques[lower_key] != param_key:
+                    echo.warning(f"Parameter name has multiple cases for '{lower_key}': '{parameters[lower_key]}' vs '{param_key}'")
+
+            # register parameter
+            existing = find_existing(parameters, param_key)
+            if existing is None:
+                parameters.append({
+                    "name": param_key,
+                })
+
+    # verify all previously documented parameters are still present
+    for param in parameters:
+        key = param["name"]
+        if key not in uniques.values():
+            echo.warning(f"Previously documented parameter ('{color.red(key)}') not present in current scripts version")
+    
+    return parameters
+
 
 def find_parameters(parsed_path: str, parameters: list) -> list:
     # parse the data from the parser output
@@ -75,8 +109,6 @@ def find_parameters(parsed_path: str, parameters: list) -> list:
     uniques = {}
     existing = load_existing(parameters)
     for model_id, model_data in parsed_data.items():
-        if model_id == "version": continue
-
         for param_key in model_data.keys():
             lower_key = param_key.lower()
 

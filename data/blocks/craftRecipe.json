@@ -4,9 +4,6 @@
     "description": "Defines a crafting recipe.",
     "parameters": [
         {
-            "name": "name"
-        },
-        {
             "name": "inputs"
         },
         {
@@ -16,34 +13,38 @@
             "name": "itemMappers"
         },
         {
-            "name": "time"
+            "name": "time",
+            "description": "The time it takes to craft the item, not using a specific unit of time."
         },
         {
-            "name": "timedAction"
+            "name": "timedAction",
+            "description": "The timed action script to trigger during crafting. Used to trigger animations and/or sounds."
         },
         {
-            "name": "tags"
+            "name": "tags",
+            "description": "Tags to define the special behavior of the recipe."
         },
         {
-            "name": "category"
+            "name": "category",
+            "description": "The category under which the recipe will be listed in the crafting menu."
         },
         {
             "name": "overlayStyle"
         },
         {
-            "name": "default"
-        },
-        {
             "name": "OnCreate"
         },
         {
-            "name": "SkillRequired"
+            "name": "SkillRequired",
+            "description": "The skill required to craft the item."
         },
         {
-            "name": "NeedToBeLearn"
+            "name": "NeedToBeLearn",
+            "description": "Whether the recipe needs to be learned before it can be crafted."
         },
         {
-            "name": "xpAward"
+            "name": "xpAward",
+            "description": "The amount of experience points awarded upon crafting the item."
         },
         {
             "name": "AutoLearnAll"

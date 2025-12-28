@@ -7,7 +7,9 @@ _DEFAULT_PARSER_FUNCTION = find_parameters
 
 BLOCKS = {
     "animationsMesh": {},
-    "craftRecipe": {},
+    "craftRecipe": {
+        "parser_function": find_craftRecipe_parameters
+    },
     "entity": {},
     "evolvedrecipe": {},
     "fixing": {
