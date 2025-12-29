@@ -2,5 +2,9 @@
     "version": 1.0,
     "name": "animation",
     "description": "",
+    "shouldHaveParent": true,
+    "parents": [
+        "module"
+    ],
     "parameters": {}
 }

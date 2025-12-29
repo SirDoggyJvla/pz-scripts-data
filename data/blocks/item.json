@@ -2,6 +2,10 @@
     "version": 1.0,
     "name": "item",
     "description": "Defines an item to register.",
+    "shouldHaveParent": true,
+    "parents": [
+        "module"
+    ],
     "parameters": [
         {
             "name": "DisplayCategory",

@@ -2,5 +2,7 @@
     "version": 1.0,
     "name": "module",
     "description": "A module holds different types of script definitions.",
+    "shouldHaveParent": false,
+    "parents": [],
     "parameters": {}
 }

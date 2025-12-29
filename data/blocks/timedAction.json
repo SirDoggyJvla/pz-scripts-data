@@ -2,6 +2,10 @@
     "version": 1.0,
     "name": "timedAction",
     "description": "Defines a callable action sound and/or animation.",
+    "shouldHaveParent": true,
+    "parents": [
+        "module"
+    ],
     "parameters": [
         {
             "name": "metabolics"

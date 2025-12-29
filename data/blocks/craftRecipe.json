@@ -2,6 +2,10 @@
     "version": 1.0,
     "name": "craftRecipe",
     "description": "Defines a crafting recipe.",
+    "shouldHaveParent": true,
+    "parents": [
+        "module"
+    ],
     "parameters": [
         {
             "name": "inputs"

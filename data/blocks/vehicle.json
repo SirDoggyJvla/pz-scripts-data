@@ -2,6 +2,10 @@
     "version": 1.0,
     "name": "vehicle",
     "description": "Defines a vehicle.",
+    "shouldHaveParent": true,
+    "parents": [
+        "module"
+    ],
     "parameters": [
         {
             "name": "neverSpawnKey"

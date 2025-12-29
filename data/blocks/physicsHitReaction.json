@@ -2,5 +2,9 @@
     "version": 1.0,
     "name": "physicsHitReaction",
     "description": "Defines the physics reaction a bullet or bomb imposes to objects.",
+    "shouldHaveParent": true,
+    "parents": [
+        "module"
+    ],
     "parameters": {}
 }

@@ -2,6 +2,10 @@
     "version": 1.0,
     "name": "fluid",
     "description": "Defines a fluid.",
+    "shouldHaveParent": true,
+    "parents": [
+        "module"
+    ],
     "parameters": [
         {
             "name": "ColorReference"

@@ -2,5 +2,9 @@
     "version": 1.0,
     "name": "passenger",
     "description": "Defines a passenger position in a vehicle script.",
+    "shouldHaveParent": true,
+    "parents": [
+        "vehicle"
+    ],
     "parameters": {}
 }

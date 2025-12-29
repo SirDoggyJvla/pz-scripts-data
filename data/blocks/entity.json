@@ -2,6 +2,10 @@
     "version": 1.0,
     "name": "entity",
     "description": "Defines a tile with special properties.",
+    "shouldHaveParent": true,
+    "parents": [
+        "module"
+    ],
     "parameters": [
         {
             "name": "name"

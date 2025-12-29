@@ -2,6 +2,10 @@
     "version": 1.0,
     "name": "evolvedrecipe",
     "description": "Defines a dynamic recipe.",
+    "shouldHaveParent": true,
+    "parents": [
+        "module"
+    ],
     "parameters": [
         {
             "name": "BaseItem"

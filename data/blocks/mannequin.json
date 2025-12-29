@@ -2,6 +2,10 @@
     "version": 1.0,
     "name": "mannequin",
     "description": "Defines a mannequin tile properties.",
+    "shouldHaveParent": true,
+    "parents": [
+        "module"
+    ],
     "parameters": [
         {
             "name": "female"
