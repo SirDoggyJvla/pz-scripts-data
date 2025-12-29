@@ -6,6 +6,9 @@
     "parents": [
         "module"
     ],
+    "needsChildren": [
+        "input"
+    ],
     "parameters": [
         {
             "name": "inputs"
