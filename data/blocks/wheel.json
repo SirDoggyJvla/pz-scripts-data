@@ -2,19 +2,12 @@
     "version": 1.0,
     "$schema": "../../$schema.json",
     "name": "wheel",
-    "description": "",
+    "description": "Defines the wheels of a vehicle. While the ID can technically be anything, only the IDs 'FrontLeft', 'FrontRight', 'RearLeft', and 'RearRight' are recognized by the game and will function properly.",
     "shouldHaveParent": true,
     "parents": [
         "template",
         "vehicle"
     ],
-    "ID": {
-        "values": [
-            "FrontLeft",
-            "FrontRight",
-            "RearLeft",
-            "RearRight"
-        ]
-    },
+    "ID": {},
     "parameters": []
 }
