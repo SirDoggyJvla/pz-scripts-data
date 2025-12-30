@@ -4,7 +4,8 @@
     "description": "",
     "shouldHaveParent": true,
     "parents": [
-        "item"
+        "item",
+        "entity"
     ],
     "ID": {
         "values": [
