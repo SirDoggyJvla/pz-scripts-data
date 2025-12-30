@@ -4,18 +4,36 @@
   "type": "object",
   "properties": {
     "version": { "type": ["number", "string"] },
-    "name": { "type": "string" },
-    "description": { "type": "string" },
-    "shouldHaveParent": { "type": "boolean" },
+    "name": { 
+      "type": "string",
+      "description": "The name of the block type." 
+    },
+    "description": { 
+      "type": "string",
+      "description": "A brief description of the block type."
+    },
+    "ID": { 
+      "type": "object",
+      "description": "Defines properties of the ID of the block."
+    },
+    "shouldHaveParent": { 
+      "type": "boolean",
+      "description": "Indicates if the block should have a parent block."
+    },
     "parents": {
       "type": "array",
-      "items": { "type": "string" }
+      "items": { "type": "string" },
+      "description": "A list of valid parent block types."
     },
     "needsChildren": {
       "type": "array",
-      "items": { "type": "string" }
+      "items": { "type": "string" },
+      "description": "A list of required child block types."
     },
-    "parameters": { "type": "array" }
+    "parameters": { 
+      "type": "array",
+      "description": "A list of the parameters and their properties."
+    }
   },
   "additionalProperties": true
 }
