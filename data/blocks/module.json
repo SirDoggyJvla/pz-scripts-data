@@ -4,5 +4,6 @@
     "description": "A module holds different types of script definitions.",
     "shouldHaveParent": false,
     "parents": [],
+    "ID": {},
     "parameters": {}
 }

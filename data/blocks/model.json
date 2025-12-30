@@ -7,6 +7,9 @@
         "module",
         "vehicle"
     ],
+    "ID": {
+        "blocks": [ "module" ]
+    },
     "parameters": [
         {
             "name": "mesh"

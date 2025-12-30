@@ -6,6 +6,7 @@
     "parents": [
         "module"
     ],
+    "ID": {},
     "parameters": [
         {
             "name": "BaseItem"

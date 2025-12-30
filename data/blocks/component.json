@@ -6,5 +6,19 @@
     "parents": [
         "item"
     ],
+    "ID": {
+        "values": [
+            "CraftRecipe",
+            "SpriteConfig",
+            "UiConfig",
+            "CraftBenchSounds",
+            "Resources",
+            "DryingCraftLogic",
+            "SpriteOverlayConfig",
+            "Durability",
+            "FluidContainer",
+            "ContextMenuConfig"
+        ]
+    },
     "parameters": {}
 }
