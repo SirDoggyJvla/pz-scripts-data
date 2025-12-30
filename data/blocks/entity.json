@@ -6,7 +6,7 @@
     "shouldHaveParent": true,
     "parents": [
         "module",
-        "xuiSKin"
+        "xuiSkin"
     ],
     "ID": {},
     "parameters": [
