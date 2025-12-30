@@ -1,11 +1,10 @@
 {
     "version": 1.0,
-    "name": "inputs",
+    "name": "layer",
     "description": "",
     "shouldHaveParent": true,
     "parents": [
-        "craftRecipe",
-        "component CraftRecipe"
+        "face"
     ],
     "parameters": {}
 }
