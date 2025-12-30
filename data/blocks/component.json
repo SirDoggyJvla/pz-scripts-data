@@ -19,7 +19,8 @@
             "Durability",
             "FluidContainer",
             "ContextMenuConfig"
-        ]
+        ],
+        "asType": true
     },
     "parameters": {}
 }
