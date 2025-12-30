@@ -1,5 +1,6 @@
 {
     "version": 1.0,
+    "$schema": "../../$schema.json",
     "name": "group",
     "description": "",
     "shouldHaveParent": true,
@@ -12,5 +13,5 @@
             "craft_outputs"   
         ]
     },
-    "parameters": {}
+    "parameters": []
 }

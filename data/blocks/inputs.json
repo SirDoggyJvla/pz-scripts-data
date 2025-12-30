@@ -1,5 +1,6 @@
 {
     "version": 1.0,
+    "$schema": "../../$schema.json",
     "name": "inputs",
     "description": "",
     "shouldHaveParent": true,
@@ -7,5 +8,5 @@
         "craftRecipe",
         "component CraftRecipe"
     ],
-    "parameters": {}
+    "parameters": []
 }

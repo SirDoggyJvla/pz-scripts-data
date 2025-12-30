@@ -1,5 +1,6 @@
 {
     "version": 1.0,
+    "$schema": "../../$schema.json",
     "name": "entity",
     "description": "Defines a tile with special properties.",
     "shouldHaveParent": true,

@@ -1,5 +1,6 @@
 {
     "version": 1.0,
+    "$schema": "../../$schema.json",
     "name": "component",
     "description": "",
     "shouldHaveParent": true,
@@ -22,5 +23,5 @@
         ],
         "asType": true
     },
-    "parameters": {}
+    "parameters": []
 }

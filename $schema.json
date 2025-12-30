@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Blocks Folder General Schema",
+  "type": "object",
+  "properties": {
+    "version": { "type": ["number", "string"] },
+    "name": { "type": "string" },
+    "description": { "type": "string" },
+    "shouldHaveParent": { "type": "boolean" },
+    "parents": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "needsChildren": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "parameters": { "type": "array" }
+  },
+  "additionalProperties": true
+}

@@ -52,7 +52,6 @@ if __name__ == "__main__":
         variant_name = block_key + " " + value
         block_info = {
             "parser_function": None,
-            "json": "" # so python doesn't shit its pants to me
         }
         setup_block_paths(variant_name, block_info)
 

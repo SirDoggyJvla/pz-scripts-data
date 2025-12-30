@@ -1,5 +1,6 @@
 {
     "version": 1.0,
+    "$schema": "../../$schema.json",
     "name": "face",
     "description": "",
     "shouldHaveParent": true,
@@ -19,5 +20,5 @@
             "N_OPEN"
         ]
     },
-    "parameters": {}
+    "parameters": []
 }

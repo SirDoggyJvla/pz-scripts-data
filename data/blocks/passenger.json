@@ -1,5 +1,6 @@
 {
     "version": 1.0,
+    "$schema": "../../$schema.json",
     "name": "passenger",
     "description": "Defines a passenger position in a vehicle script.",
     "shouldHaveParent": true,

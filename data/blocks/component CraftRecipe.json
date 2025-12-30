@@ -1,5 +1,6 @@
 {
     "version": 1.0,
+    "$schema": "../../$schema.json",
     "name": "component CraftRecipe",
     "description": "",
     "shouldHaveParent": true,
@@ -9,5 +10,5 @@
     "needsChildren": [
         "inputs"
     ],
-    "parameters": {}
+    "parameters": []
 }
