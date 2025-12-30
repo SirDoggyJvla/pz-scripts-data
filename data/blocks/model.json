@@ -9,8 +9,9 @@
         "vehicle"
     ],
     "ID": {
-        "parents": [
-            "module"
+        "parentsWithout": [
+            "vehicle",
+            "template"
         ]
     },
     "parameters": [

@@ -9,7 +9,12 @@
         "vehicle",
         "template"
     ],
-    "ID": {},
+    "ID": {
+        "parentsWithout": [
+            "vehicle",
+            "template"
+        ]
+    },
     "parameters": [
         {
             "name": "category"
