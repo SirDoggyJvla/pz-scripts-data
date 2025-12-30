@@ -1,0 +1,16 @@
+{
+    "version": 1.0,
+    "name": "group",
+    "description": "",
+    "shouldHaveParent": true,
+    "parents": [
+        "component Resources"
+    ],
+    "ID": {
+        "values": [
+            "craft_inputs",
+            "craft_outputs"   
+        ]
+    },
+    "parameters": {}
+}

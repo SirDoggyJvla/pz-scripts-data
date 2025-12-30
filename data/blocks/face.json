@@ -1,13 +1,10 @@
 {
     "version": 1.0,
-    "name": "component SpriteConfig",
+    "name": "face",
     "description": "",
     "shouldHaveParent": true,
     "parents": [
-        "entity"
-    ],
-    "needsChildren": [
-        "face"
+        "component SpriteConfig"
     ],
     "parameters": {}
 }

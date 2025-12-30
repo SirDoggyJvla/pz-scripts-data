@@ -6,5 +6,8 @@
     "parents": [
         "entity"
     ],
+    "needsChildren": [
+        "inputs"
+    ],
     "parameters": {}
 }
