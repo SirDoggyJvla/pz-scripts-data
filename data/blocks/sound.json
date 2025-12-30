@@ -5,7 +5,9 @@
     "description": "Defines a sound properties.",
     "shouldHaveParent": true,
     "parents": [
-        "module"
+        "module",
+        "vehicle",
+        "template"
     ],
     "ID": {},
     "parameters": [
