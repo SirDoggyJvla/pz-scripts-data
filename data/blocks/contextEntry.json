@@ -1,13 +1,10 @@
 {
     "version": 1.0,
-    "name": "component ContextMenuConfig",
+    "name": "contextEntry",
     "description": "",
     "shouldHaveParent": true,
     "parents": [
-        "item"
-    ],
-    "needsChildren": [
-        "contextEntry"
+        "component ContextMenuConfig"
     ],
     "parameters": {}
 }

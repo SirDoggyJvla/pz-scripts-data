@@ -1,13 +1,10 @@
 {
     "version": 1.0,
-    "name": "component ContextMenuConfig",
+    "name": "clip",
     "description": "",
     "shouldHaveParent": true,
     "parents": [
-        "item"
-    ],
-    "needsChildren": [
-        "contextEntry"
+        "sound"
     ],
     "parameters": {}
 }
