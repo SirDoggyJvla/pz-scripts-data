@@ -10,6 +10,9 @@ BLOCKS = {
     "craftRecipe": {
         "parser_function": find_craftRecipe_parameters
     },
+    "component": {
+        "parser_function": None,
+    },
     "entity": {},
     "evolvedrecipe": {},
     "fixing": {
@@ -30,8 +33,7 @@ BLOCKS = {
 PARSER_PATH = "/home/simon/Documents/Repositories/pz-wiki_parser"
 PROJECT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 
-## init paths
-for block_key, block_info in BLOCKS.items():
+def setup_block_paths(block_key: str, block_info: dict):
     parser_data = block_info.get("parser_data", _DEFAULT_PARSER).format(block_key=block_key)
     block_info["parser_data"] = os.path.join(PARSER_PATH, parser_data)
 
@@ -40,3 +42,7 @@ for block_key, block_info in BLOCKS.items():
 
     if "parser_function" not in block_info:
         block_info["parser_function"] = _DEFAULT_PARSER_FUNCTION
+
+## init paths to components
+for block_key, block_info in BLOCKS.items():
+    setup_block_paths(block_key, block_info)

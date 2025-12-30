@@ -1,6 +1,6 @@
 {
     "version": 1.0,
-    "name": "component FluidContainer",
+    "name": "component Durability",
     "description": "",
     "shouldHaveParent": true,
     "parents": [

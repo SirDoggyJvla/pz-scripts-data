@@ -1,10 +1,10 @@
 {
     "version": 1.0,
-    "name": "component FluidContainer",
+    "name": "component CraftBenchSounds",
     "description": "",
     "shouldHaveParent": true,
     "parents": [
-        "item"
+        "entity"
     ],
     "parameters": {}
 }
