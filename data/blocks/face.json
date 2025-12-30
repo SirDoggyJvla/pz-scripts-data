@@ -6,5 +6,18 @@
     "parents": [
         "component SpriteConfig"
     ],
+    "ID": {
+        "values": [
+            "SINGLE",
+            "S",
+            "E",
+            "W",
+            "N",
+            "S_OPEN",
+            "E_OPEN",
+            "W_OPEN",
+            "N_OPEN"
+        ]
+    },
     "parameters": {}
 }
