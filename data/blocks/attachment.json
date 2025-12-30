@@ -6,7 +6,8 @@
     "shouldHaveParent": true,
     "parents": [
         "vehicle",
-        "model"
+        "model",
+        "template"
     ],
     "ID": {},
     "parameters": []

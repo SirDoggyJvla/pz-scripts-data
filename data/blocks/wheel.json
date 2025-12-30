@@ -8,5 +8,13 @@
         "template",
         "vehicle"
     ],
+    "ID": {
+        "values": [
+            "FrontLeft",
+            "FrontRight",
+            "RearLeft",
+            "RearRight"
+        ]
+    },
     "parameters": []
 }
