@@ -1,0 +1,11 @@
+{
+    "version": 1.0,
+    "name": "attachment",
+    "description": "",
+    "shouldHaveParent": true,
+    "parents": [
+        "vehicle",
+        "model"
+    ],
+    "parameters": {}
+}

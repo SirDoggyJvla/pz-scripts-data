@@ -1,0 +1,10 @@
+{
+    "version": 1.0,
+    "name": "component",
+    "description": "",
+    "shouldHaveParent": true,
+    "parents": [
+        "item"
+    ],
+    "parameters": {}
+}

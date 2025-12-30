@@ -7,7 +7,7 @@
         "module"
     ],
     "needsChildren": [
-        "input"
+        "inputs"
     ],
     "parameters": [
         {
