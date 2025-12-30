@@ -5,7 +5,8 @@
     "description": "Defines a tile with special properties.",
     "shouldHaveParent": true,
     "parents": [
-        "module"
+        "module",
+        "xuiSKin"
     ],
     "ID": {},
     "parameters": [
