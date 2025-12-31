@@ -1,11 +1,12 @@
 {
     "version": 1.0,
     "$schema": "../../$schema.json",
-    "name": "table",
+    "name": "skin",
     "description": "",
     "shouldHaveParent": true,
     "parents": [
-        "part"
+        "template",
+        "vehicle"
     ],
     "parameters": []
 }

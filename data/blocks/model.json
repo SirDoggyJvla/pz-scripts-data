@@ -6,7 +6,8 @@
     "shouldHaveParent": true,
     "parents": [
         "module",
-        "vehicle"
+        "vehicle",
+        "part"
     ],
     "ID": {
         "parentsWithout": [
