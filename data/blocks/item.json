@@ -10,135 +10,71 @@
     "ID": {},
     "parameters": [
         {
-            "name": "DisplayCategory",
+            "name": "AcceptItemFunction",
             "itemTypes": [
-                "alarmclock",
-                "alarmclockclothing",
-                "animal",
+                "container"
+            ]
+        },
+        {
+            "name": "AcceptMediaType",
+            "itemTypes": [
+                "radio"
+            ]
+        },
+        {
+            "name": "ActivatedItem",
+            "itemTypes": [
                 "clothing",
-                "container",
                 "drainable",
-                "food",
-                "key",
-                "literature",
-                "map",
-                "moveable",
-                "normal",
-                "radio",
-                "weapon",
                 "weaponpart"
             ]
         },
         {
-            "name": "ItemType",
+            "name": "AimingMod",
             "itemTypes": [
-                "alarmclock",
-                "alarmclockclothing",
-                "animal",
-                "clothing",
-                "container",
-                "drainable",
-                "food",
-                "key",
-                "literature",
-                "map",
-                "moveable",
-                "normal",
-                "radio",
-                "weapon",
+                "weapon"
+            ]
+        },
+        {
+            "name": "AimingPerkCritModifier",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "AimingPerkHitChanceModifier",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "AimingPerkMinAngleModifier",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "AimingPerkRangeModifier",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "Aimingtime",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "AimingTimeModifier",
+            "itemTypes": [
                 "weaponpart"
             ]
         },
         {
-            "name": "Weight",
+            "name": "AimReleaseSound",
             "itemTypes": [
-                "alarmclock",
-                "alarmclockclothing",
-                "animal",
-                "clothing",
-                "container",
-                "drainable",
-                "food",
-                "key",
-                "literature",
-                "map",
-                "moveable",
-                "normal",
-                "radio",
-                "weapon",
-                "weaponpart"
-            ]
-        },
-        {
-            "name": "Icon",
-            "itemTypes": [
-                "alarmclock",
-                "alarmclockclothing",
-                "animal",
-                "clothing",
-                "container",
-                "drainable",
-                "food",
-                "key",
-                "literature",
-                "map",
-                "moveable",
-                "normal",
-                "radio",
-                "weapon",
-                "weaponpart"
-            ]
-        },
-        {
-            "name": "MetalValue",
-            "itemTypes": [
-                "alarmclock",
-                "alarmclockclothing",
-                "clothing",
-                "container",
-                "drainable",
-                "key",
-                "normal",
-                "weapon",
-                "weaponpart"
-            ]
-        },
-        {
-            "name": "WorldStaticModel",
-            "itemTypes": [
-                "alarmclock",
-                "alarmclockclothing",
-                "clothing",
-                "container",
-                "drainable",
-                "food",
-                "key",
-                "literature",
-                "map",
-                "moveable",
-                "normal",
-                "radio",
-                "weapon",
-                "weaponpart"
-            ]
-        },
-        {
-            "name": "Tags",
-            "itemTypes": [
-                "alarmclock",
-                "alarmclockclothing",
-                "clothing",
-                "container",
-                "drainable",
-                "food",
-                "key",
-                "literature",
-                "map",
-                "moveable",
-                "normal",
-                "radio",
-                "weapon",
-                "weaponpart"
+                "weapon"
             ]
         },
         {
@@ -149,12 +85,121 @@
             ]
         },
         {
-            "name": "SoundRadius",
+            "name": "Alcoholic",
             "itemTypes": [
-                "alarmclock",
-                "alarmclockclothing",
+                "normal"
+            ]
+        },
+        {
+            "name": "AlcoholPower",
+            "itemTypes": [
+                "drainable"
+            ]
+        },
+        {
+            "name": "AlwaysKnockdown",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "AlwaysWelcomeGift",
+            "itemTypes": [
+                "normal"
+            ]
+        },
+        {
+            "name": "AmmoBox",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "AmmoType",
+            "itemTypes": [
                 "normal",
                 "weapon"
+            ]
+        },
+        {
+            "name": "AngleFalloff",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "AnimalFeedType",
+            "itemTypes": [
+                "drainable",
+                "food"
+            ]
+        },
+        {
+            "name": "AttachmentReplacement",
+            "itemTypes": [
+                "container",
+                "radio"
+            ]
+        },
+        {
+            "name": "AttachmentsProvided",
+            "itemTypes": [
+                "clothing",
+                "container"
+            ]
+        },
+        {
+            "name": "AttachmentType",
+            "itemTypes": [
+                "drainable",
+                "normal",
+                "radio",
+                "weapon"
+            ]
+        },
+        {
+            "name": "BadCold",
+            "itemTypes": [
+                "food"
+            ]
+        },
+        {
+            "name": "BadInMicrowave",
+            "itemTypes": [
+                "food"
+            ]
+        },
+        {
+            "name": "BandagePower",
+            "itemTypes": [
+                "normal"
+            ]
+        },
+        {
+            "name": "BaseSpeed",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "BaseVolumeRange",
+            "itemTypes": [
+                "radio"
+            ]
+        },
+        {
+            "name": "BiteDefense",
+            "itemTypes": [
+                "clothing"
+            ]
+        },
+        {
+            "name": "BloodLocation",
+            "itemTypes": [
+                "clothing",
+                "container",
+                "normal",
+                "radio"
             ]
         },
         {
@@ -164,6 +209,227 @@
                 "clothing",
                 "container",
                 "normal"
+            ]
+        },
+        {
+            "name": "book_subject",
+            "itemTypes": [
+                "container",
+                "literature"
+            ]
+        },
+        {
+            "name": "BoredomChange",
+            "itemTypes": [
+                "food",
+                "literature"
+            ]
+        },
+        {
+            "name": "brakeForce",
+            "itemTypes": [
+                "normal"
+            ]
+        },
+        {
+            "name": "BreakSound",
+            "itemTypes": [
+                "clothing",
+                "normal",
+                "weapon"
+            ]
+        },
+        {
+            "name": "BringToBearSound",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "BulletDefense",
+            "itemTypes": [
+                "clothing"
+            ]
+        },
+        {
+            "name": "BulletHitArmourSound",
+            "itemTypes": [
+                "clothing"
+            ]
+        },
+        {
+            "name": "Calories",
+            "itemTypes": [
+                "drainable",
+                "food",
+                "normal"
+            ]
+        },
+        {
+            "name": "CanAttach",
+            "itemTypes": [
+                "weaponpart"
+            ]
+        },
+        {
+            "name": "CanBandage",
+            "itemTypes": [
+                "normal"
+            ]
+        },
+        {
+            "name": "CanBarricade",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "CanBeEquipped",
+            "itemTypes": [
+                "container",
+                "radio"
+            ]
+        },
+        {
+            "name": "CanBePlaced",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "CanBeRemote",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "CanBeReused",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "CanBeWrite",
+            "itemTypes": [
+                "literature"
+            ]
+        },
+        {
+            "name": "CanDetach",
+            "itemTypes": [
+                "weaponpart"
+            ]
+        },
+        {
+            "name": "CanHaveHoles",
+            "itemTypes": [
+                "clothing",
+                "container",
+                "normal"
+            ]
+        },
+        {
+            "name": "CannedFood",
+            "itemTypes": [
+                "food"
+            ]
+        },
+        {
+            "name": "CanStack",
+            "itemTypes": [
+                "normal"
+            ]
+        },
+        {
+            "name": "CanStoreWater",
+            "itemTypes": [
+                "drainable",
+                "normal",
+                "weapon"
+            ]
+        },
+        {
+            "name": "CantAttackWithLowestEndurance",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "cantBeConsolided",
+            "itemTypes": [
+                "drainable"
+            ]
+        },
+        {
+            "name": "CantBeFrozen",
+            "itemTypes": [
+                "drainable",
+                "food"
+            ]
+        },
+        {
+            "name": "CantEat",
+            "itemTypes": [
+                "drainable",
+                "food"
+            ]
+        },
+        {
+            "name": "Capacity",
+            "itemTypes": [
+                "container"
+            ]
+        },
+        {
+            "name": "Carbohydrates",
+            "itemTypes": [
+                "drainable",
+                "food",
+                "normal"
+            ]
+        },
+        {
+            "name": "Categories",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "ChanceToFall",
+            "itemTypes": [
+                "clothing",
+                "normal"
+            ]
+        },
+        {
+            "name": "ChanceToSpawnDamaged",
+            "itemTypes": [
+                "drainable",
+                "normal"
+            ]
+        },
+        {
+            "name": "ClickSound",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "ClipSize",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "CloseKillMove",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "CloseSound",
+            "itemTypes": [
+                "container"
             ]
         },
         {
@@ -200,122 +466,6 @@
             ]
         },
         {
-            "name": "Cosmetic",
-            "itemTypes": [
-                "alarmclockclothing",
-                "clothing"
-            ]
-        },
-        {
-            "name": "BloodLocation",
-            "itemTypes": [
-                "clothing",
-                "container",
-                "normal",
-                "radio"
-            ]
-        },
-        {
-            "name": "FabricType",
-            "itemTypes": [
-                "clothing",
-                "normal"
-            ]
-        },
-        {
-            "name": "Insulation",
-            "itemTypes": [
-                "clothing",
-                "normal"
-            ]
-        },
-        {
-            "name": "WindResistance",
-            "itemTypes": [
-                "clothing",
-                "normal"
-            ]
-        },
-        {
-            "name": "RunSpeedModifier",
-            "itemTypes": [
-                "clothing",
-                "container",
-                "radio"
-            ]
-        },
-        {
-            "name": "ScratchDefense",
-            "itemTypes": [
-                "clothing"
-            ]
-        },
-        {
-            "name": "DiscomfortModifier",
-            "itemTypes": [
-                "clothing",
-                "container"
-            ]
-        },
-        {
-            "name": "Researchablerecipes",
-            "itemTypes": [
-                "clothing",
-                "container",
-                "drainable",
-                "food",
-                "moveable",
-                "normal",
-                "radio",
-                "weapon"
-            ]
-        },
-        {
-            "name": "WaterResistance",
-            "itemTypes": [
-                "clothing"
-            ]
-        },
-        {
-            "name": "CanHaveHoles",
-            "itemTypes": [
-                "clothing",
-                "container",
-                "normal"
-            ]
-        },
-        {
-            "name": "ChanceToFall",
-            "itemTypes": [
-                "clothing",
-                "normal"
-            ]
-        },
-        {
-            "name": "VisualAid",
-            "itemTypes": [
-                "clothing"
-            ]
-        },
-        {
-            "name": "IconsForTexture",
-            "itemTypes": [
-                "clothing",
-                "container",
-                "food",
-                "key",
-                "literature",
-                "normal",
-                "weapon"
-            ]
-        },
-        {
-            "name": "VisionModifier",
-            "itemTypes": [
-                "clothing"
-            ]
-        },
-        {
             "name": "ColorBlue",
             "itemTypes": [
                 "clothing",
@@ -346,28 +496,6 @@
             ]
         },
         {
-            "name": "BiteDefense",
-            "itemTypes": [
-                "clothing"
-            ]
-        },
-        {
-            "name": "Tooltip",
-            "itemTypes": [
-                "clothing",
-                "container",
-                "drainable",
-                "food",
-                "key",
-                "literature",
-                "moveable",
-                "normal",
-                "radio",
-                "weapon",
-                "weaponpart"
-            ]
-        },
-        {
             "name": "CombatSpeedModifier",
             "itemTypes": [
                 "clothing",
@@ -375,7 +503,22 @@
             ]
         },
         {
-            "name": "BreakSound",
+            "name": "component",
+            "itemTypes": [
+                "clothing",
+                "container",
+                "normal",
+                "weapon"
+            ]
+        },
+        {
+            "name": "ConditionAffectsCapacity",
+            "itemTypes": [
+                "normal"
+            ]
+        },
+        {
+            "name": "ConditionLowerChanceOneIn",
             "itemTypes": [
                 "clothing",
                 "normal",
@@ -383,35 +526,42 @@
             ]
         },
         {
-            "name": "BulletHitArmourSound",
+            "name": "ConditionLowerOffroad",
             "itemTypes": [
-                "clothing"
-            ]
-        },
-        {
-            "name": "WeaponHitArmourSound",
-            "itemTypes": [
-                "clothing"
-            ]
-        },
-        {
-            "name": "ShoutType",
-            "itemTypes": [
-                "clothing",
                 "normal"
             ]
         },
         {
-            "name": "ShoutMultiplier",
+            "name": "ConditionLowerStandard",
             "itemTypes": [
-                "clothing",
+                "drainable",
                 "normal"
             ]
         },
         {
-            "name": "HearingModifier",
+            "name": "ConditionMax",
             "itemTypes": [
-                "clothing"
+                "clothing",
+                "container",
+                "drainable",
+                "food",
+                "normal",
+                "radio",
+                "weapon"
+            ]
+        },
+        {
+            "name": "ConsolidateOption",
+            "itemTypes": [
+                "drainable"
+            ]
+        },
+        {
+            "name": "CookingSound",
+            "itemTypes": [
+                "drainable",
+                "food",
+                "normal"
             ]
         },
         {
@@ -421,16 +571,976 @@
             ]
         },
         {
-            "name": "AttachmentsProvided",
+            "name": "Cosmetic",
+            "itemTypes": [
+                "alarmclockclothing",
+                "clothing"
+            ]
+        },
+        {
+            "name": "count",
+            "itemTypes": [
+                "normal"
+            ]
+        },
+        {
+            "name": "CritDmgMultiplier",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "CriticalChance",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "CustomContextMenu",
+            "itemTypes": [
+                "drainable",
+                "food",
+                "normal"
+            ]
+        },
+        {
+            "name": "CustomEatSound",
+            "itemTypes": [
+                "drainable",
+                "food",
+                "normal"
+            ]
+        },
+        {
+            "name": "CyclicRateMultiplier",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "DamageCategory",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "DamageMakeHole",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "DangerousUncooked",
+            "itemTypes": [
+                "food"
+            ]
+        },
+        {
+            "name": "DaysFresh",
+            "itemTypes": [
+                "food"
+            ]
+        },
+        {
+            "name": "DaysTotallyRotten",
+            "itemTypes": [
+                "food"
+            ]
+        },
+        {
+            "name": "DigitalPadlock",
+            "itemTypes": [
+                "key"
+            ]
+        },
+        {
+            "name": "DigType",
+            "itemTypes": [
+                "normal",
+                "weapon"
+            ]
+        },
+        {
+            "name": "DisappearOnUse",
+            "itemTypes": [
+                "drainable",
+                "radio",
+                "weaponpart"
+            ]
+        },
+        {
+            "name": "DiscomfortModifier",
             "itemTypes": [
                 "clothing",
                 "container"
             ]
         },
         {
+            "name": "DisplayCategory",
+            "itemTypes": [
+                "alarmclock",
+                "alarmclockclothing",
+                "animal",
+                "clothing",
+                "container",
+                "drainable",
+                "food",
+                "key",
+                "literature",
+                "map",
+                "moveable",
+                "normal",
+                "radio",
+                "weapon",
+                "weaponpart"
+            ]
+        },
+        {
+            "name": "DoorDamage",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "DoorHitSound",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "DoubleClickRecipe",
+            "itemTypes": [
+                "drainable",
+                "food",
+                "literature",
+                "normal"
+            ]
+        },
+        {
+            "name": "DropSound",
+            "itemTypes": [
+                "normal",
+                "weapon"
+            ]
+        },
+        {
+            "name": "Eattime",
+            "itemTypes": [
+                "drainable",
+                "food",
+                "normal"
+            ]
+        },
+        {
+            "name": "EatType",
+            "itemTypes": [
+                "clothing",
+                "drainable",
+                "food",
+                "normal",
+                "weapon"
+            ]
+        },
+        {
+            "name": "EjectAmmoSound",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "EjectAmmoStartSound",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "EjectAmmoStopSound",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "enduranceChange",
+            "itemTypes": [
+                "food"
+            ]
+        },
+        {
+            "name": "EnduranceMod",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "engineLoudness",
+            "itemTypes": [
+                "normal"
+            ]
+        },
+        {
+            "name": "EquippedNoSprint",
+            "itemTypes": [
+                "normal"
+            ]
+        },
+        {
+            "name": "EquipSound",
+            "itemTypes": [
+                "container",
+                "drainable",
+                "weapon"
+            ]
+        },
+        {
+            "name": "EvolvedRecipe",
+            "itemTypes": [
+                "drainable",
+                "food"
+            ]
+        },
+        {
+            "name": "EvolvedRecipeName",
+            "itemTypes": [
+                "drainable",
+                "food"
+            ]
+        },
+        {
+            "name": "ExplosionDuration",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "ExplosionPower",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "ExplosionRange",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "ExplosionSound",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "ExplosionTimer",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "FabricType",
+            "itemTypes": [
+                "clothing",
+                "normal"
+            ]
+        },
+        {
+            "name": "fatigueChange",
+            "itemTypes": [
+                "drainable",
+                "food"
+            ]
+        },
+        {
+            "name": "FillFromDispenserSound",
+            "itemTypes": [
+                "drainable",
+                "normal"
+            ]
+        },
+        {
+            "name": "FillFromLakeSound",
+            "itemTypes": [
+                "normal"
+            ]
+        },
+        {
+            "name": "FillFromTapSound",
+            "itemTypes": [
+                "drainable",
+                "normal"
+            ]
+        },
+        {
+            "name": "FillFromToiletSound",
+            "itemTypes": [
+                "normal"
+            ]
+        },
+        {
+            "name": "FireFuelRatio",
+            "itemTypes": [
+                "drainable",
+                "moveable",
+                "normal",
+                "weapon"
+            ]
+        },
+        {
+            "name": "FireMode",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "FireModePossibilities",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "FireRange",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "FireStartingChance",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "FireStartingEnergy",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "FishingLure",
+            "itemTypes": [
+                "food",
+                "normal"
+            ]
+        },
+        {
+            "name": "fluReduction",
+            "itemTypes": [
+                "food"
+            ]
+        },
+        {
+            "name": "FoodSicknessChange",
+            "itemTypes": [
+                "drainable",
+                "food"
+            ]
+        },
+        {
+            "name": "FoodType",
+            "itemTypes": [
+                "drainable",
+                "food"
+            ]
+        },
+        {
+            "name": "GoodHot",
+            "itemTypes": [
+                "food"
+            ]
+        },
+        {
+            "name": "GunType",
+            "itemTypes": [
+                "normal"
+            ]
+        },
+        {
+            "name": "HaveChamber",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "HeadCondition",
+            "itemTypes": [
+                "normal",
+                "weapon"
+            ]
+        },
+        {
+            "name": "HeadConditionLowerChanceMultiplier",
+            "itemTypes": [
+                "normal",
+                "weapon"
+            ]
+        },
+        {
+            "name": "HeadConditionMax",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "HearingModifier",
+            "itemTypes": [
+                "clothing"
+            ]
+        },
+        {
+            "name": "HerbalistType",
+            "itemTypes": [
+                "food"
+            ]
+        },
+        {
+            "name": "HitAngleMod",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "HitChance",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "HitChanceModifier",
+            "itemTypes": [
+                "weaponpart"
+            ]
+        },
+        {
+            "name": "HitFloorSound",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "HitSound",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "HungerChange",
+            "itemTypes": [
+                "drainable",
+                "food"
+            ]
+        },
+        {
+            "name": "Icon",
+            "itemTypes": [
+                "alarmclock",
+                "alarmclockclothing",
+                "animal",
+                "clothing",
+                "container",
+                "drainable",
+                "food",
+                "key",
+                "literature",
+                "map",
+                "moveable",
+                "normal",
+                "radio",
+                "weapon",
+                "weaponpart"
+            ]
+        },
+        {
+            "name": "IconColorMask",
+            "itemTypes": [
+                "drainable",
+                "literature",
+                "normal",
+                "weapon"
+            ]
+        },
+        {
+            "name": "IconFluidMask",
+            "itemTypes": [
+                "normal",
+                "weapon"
+            ]
+        },
+        {
+            "name": "IconsForTexture",
+            "itemTypes": [
+                "clothing",
+                "container",
+                "food",
+                "key",
+                "literature",
+                "normal",
+                "weapon"
+            ]
+        },
+        {
+            "name": "IdleAnim",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "ImpactSound",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "InsertAllBulletsReload",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "InsertAmmoSound",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "InsertAmmoStartSound",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "InsertAmmoStopSound",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "Insulation",
+            "itemTypes": [
+                "clothing",
+                "normal"
+            ]
+        },
+        {
+            "name": "InverseCoughProbability",
+            "itemTypes": [
+                "drainable",
+                "food"
+            ]
+        },
+        {
+            "name": "InverseCoughProbabilitySmoker",
+            "itemTypes": [
+                "drainable",
+                "food"
+            ]
+        },
+        {
+            "name": "IsAimedFirearm",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "IsAimedHandWeapon",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "IsCookable",
+            "itemTypes": [
+                "drainable",
+                "food",
+                "normal",
+                "weapon"
+            ]
+        },
+        {
+            "name": "IsDung",
+            "itemTypes": [
+                "food"
+            ]
+        },
+        {
+            "name": "IsHighTier",
+            "itemTypes": [
+                "radio"
+            ]
+        },
+        {
+            "name": "IsPortable",
+            "itemTypes": [
+                "radio"
+            ]
+        },
+        {
+            "name": "IsTelevision",
+            "itemTypes": [
+                "radio"
+            ]
+        },
+        {
+            "name": "IsWaterSource",
+            "itemTypes": [
+                "drainable"
+            ]
+        },
+        {
+            "name": "ItemAfterCleaning",
+            "itemTypes": [
+                "normal"
+            ]
+        },
+        {
+            "name": "ItemType",
+            "itemTypes": [
+                "alarmclock",
+                "alarmclockclothing",
+                "animal",
+                "clothing",
+                "container",
+                "drainable",
+                "food",
+                "key",
+                "literature",
+                "map",
+                "moveable",
+                "normal",
+                "radio",
+                "weapon",
+                "weaponpart"
+            ],
+            "required": true
+        },
+        {
+            "name": "ItemWhenDry",
+            "itemTypes": [
+                "normal"
+            ]
+        },
+        {
+            "name": "JamGunChance",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "KeepOnDeplete",
+            "itemTypes": [
+                "clothing",
+                "drainable"
+            ]
+        },
+        {
+            "name": "KnockBackOnNoDeath",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "KnockdownMod",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "LearnedRecipes",
+            "itemTypes": [
+                "literature"
+            ]
+        },
+        {
+            "name": "LightDistance",
+            "itemTypes": [
+                "drainable",
+                "weaponpart"
+            ]
+        },
+        {
+            "name": "LightStrength",
+            "itemTypes": [
+                "drainable",
+                "weaponpart"
+            ]
+        },
+        {
+            "name": "Lipids",
+            "itemTypes": [
+                "drainable",
+                "food",
+                "normal"
+            ]
+        },
+        {
+            "name": "LowLightBonus",
+            "itemTypes": [
+                "weaponpart"
+            ]
+        },
+        {
+            "name": "LvlSkillTrained",
+            "itemTypes": [
+                "literature"
+            ]
+        },
+        {
+            "name": "magazine_subject",
+            "itemTypes": [
+                "literature"
+            ]
+        },
+        {
+            "name": "MagazineType",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "MakeUpType",
+            "itemTypes": [
+                "drainable"
+            ]
+        },
+        {
+            "name": "ManuallyRemoveSpentRounds",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "Map",
+            "itemTypes": [
+                "map"
+            ]
+        },
+        {
+            "name": "MaxAmmo",
+            "itemTypes": [
+                "normal",
+                "weapon"
+            ]
+        },
+        {
+            "name": "MaxCapacity",
+            "itemTypes": [
+                "normal"
+            ]
+        },
+        {
+            "name": "MaxChannel",
+            "itemTypes": [
+                "radio"
+            ]
+        },
+        {
+            "name": "MaxDamage",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "MaxHitcount",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "MaxItemSize",
+            "itemTypes": [
+                "container"
+            ]
+        },
+        {
+            "name": "MaxRange",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "MaxRangeModifier",
+            "itemTypes": [
+                "weaponpart"
+            ]
+        },
+        {
+            "name": "MaxSightRange",
+            "itemTypes": [
+                "weapon",
+                "weaponpart"
+            ]
+        },
+        {
+            "name": "MechanicsItem",
+            "itemTypes": [
+                "drainable",
+                "normal"
+            ]
+        },
+        {
+            "name": "MediaCategory",
+            "itemTypes": [
+                "normal"
+            ]
+        },
+        {
+            "name": "Medical",
+            "itemTypes": [
+                "container",
+                "drainable",
+                "food",
+                "normal"
+            ]
+        },
+        {
+            "name": "MetalValue",
+            "itemTypes": [
+                "alarmclock",
+                "alarmclockclothing",
+                "clothing",
+                "container",
+                "drainable",
+                "key",
+                "normal",
+                "weapon",
+                "weaponpart"
+            ]
+        },
+        {
+            "name": "MicRange",
+            "itemTypes": [
+                "radio"
+            ]
+        },
+        {
+            "name": "MinAngle",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "MinChannel",
+            "itemTypes": [
+                "radio"
+            ]
+        },
+        {
+            "name": "MinDamage",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "MinimumSwingtime",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "MinRange",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "MinSightRange",
+            "itemTypes": [
+                "weapon",
+                "weaponpart"
+            ]
+        },
+        {
+            "name": "MinutesToBurn",
+            "itemTypes": [
+                "food"
+            ]
+        },
+        {
+            "name": "MinutesToCook",
+            "itemTypes": [
+                "food"
+            ]
+        },
+        {
+            "name": "ModelWeaponPart",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "MountOn",
+            "itemTypes": [
+                "weaponpart"
+            ]
+        },
+        {
+            "name": "MultipleHitConditionAffected",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "MuzzleFlashModelKey",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
             "name": "NeckProtectionModifier",
             "itemTypes": [
                 "clothing"
+            ]
+        },
+        {
+            "name": "needtobeclosedoncereload",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "NoiseDuration",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "NoiseRange",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "NoTransmit",
+            "itemTypes": [
+                "radio"
+            ]
+        },
+        {
+            "name": "NPCSoundBoost",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "NumberOfPages",
+            "itemTypes": [
+                "literature"
+            ]
+        },
+        {
+            "name": "NumLevelsTrained",
+            "itemTypes": [
+                "literature"
+            ]
+        },
+        {
+            "name": "OnBreak",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "OnCooked",
+            "itemTypes": [
+                "food"
             ]
         },
         {
@@ -447,62 +1557,273 @@
             ]
         },
         {
-            "name": "WithoutDrainable",
+            "name": "OnEat",
             "itemTypes": [
-                "clothing"
+                "drainable",
+                "food"
             ]
         },
         {
-            "name": "KeepOnDeplete",
+            "name": "OpeningRecipe",
             "itemTypes": [
-                "clothing",
-                "drainable"
+                "food",
+                "normal"
             ]
         },
         {
-            "name": "ConditionMax",
+            "name": "OpenSound",
             "itemTypes": [
-                "clothing",
-                "container",
+                "container"
+            ]
+        },
+        {
+            "name": "OriginX",
+            "itemTypes": [
+                "key"
+            ]
+        },
+        {
+            "name": "OriginY",
+            "itemTypes": [
+                "key"
+            ]
+        },
+        {
+            "name": "originZ",
+            "itemTypes": [
+                "key"
+            ]
+        },
+        {
+            "name": "OtherHandRequire",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "OtherHandUse",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "Packaged",
+            "itemTypes": [
                 "drainable",
                 "food",
-                "normal",
-                "radio",
-                "weapon"
+                "normal"
             ]
         },
         {
-            "name": "ConditionLowerChanceOneIn",
+            "name": "Padlock",
             "itemTypes": [
-                "clothing",
-                "normal",
-                "weapon"
+                "key"
             ]
         },
         {
-            "name": "WithDrainable",
+            "name": "PageToWrite",
             "itemTypes": [
-                "clothing"
+                "literature"
             ]
         },
         {
-            "name": "ActivatedItem",
+            "name": "painReduction",
             "itemTypes": [
-                "clothing",
-                "drainable",
+                "food"
+            ]
+        },
+        {
+            "name": "PartType",
+            "itemTypes": [
                 "weaponpart"
             ]
         },
         {
-            "name": "BulletDefense",
+            "name": "PhysicsObject",
             "itemTypes": [
-                "clothing"
+                "weapon"
             ]
         },
         {
-            "name": "SpawnWith",
+            "name": "PiercingBullets",
             "itemTypes": [
-                "clothing"
+                "weapon"
+            ]
+        },
+        {
+            "name": "PlacedSprite",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "PlaceMultipleSound",
+            "itemTypes": [
+                "normal"
+            ]
+        },
+        {
+            "name": "PlaceOneSound",
+            "itemTypes": [
+                "normal"
+            ]
+        },
+        {
+            "name": "PoisonPower",
+            "itemTypes": [
+                "food"
+            ]
+        },
+        {
+            "name": "PourType",
+            "itemTypes": [
+                "drainable",
+                "food",
+                "normal"
+            ]
+        },
+        {
+            "name": "primaryAnimMask",
+            "itemTypes": [
+                "drainable",
+                "normal",
+                "weaponpart"
+            ]
+        },
+        {
+            "name": "Projectilecount",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "ProjectileSpread",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "ProjectileSpreadModifier",
+            "itemTypes": [
+                "weaponpart"
+            ]
+        },
+        {
+            "name": "ProjectileWeightCenter",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "ProtectFromRainWhenEquipped",
+            "itemTypes": [
+                "normal"
+            ]
+        },
+        {
+            "name": "Proteins",
+            "itemTypes": [
+                "drainable",
+                "food",
+                "normal"
+            ]
+        },
+        {
+            "name": "PushBackMod",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "PutInSound",
+            "itemTypes": [
+                "container"
+            ]
+        },
+        {
+            "name": "RackAfterShoot",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "RackSound",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "RainFactor",
+            "itemTypes": [
+                "drainable",
+                "normal",
+                "weapon"
+            ]
+        },
+        {
+            "name": "Ranged",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "RangeFalloff",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "ReadType",
+            "itemTypes": [
+                "literature"
+            ]
+        },
+        {
+            "name": "RecoilDelay",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "RecoilDelayModifier",
+            "itemTypes": [
+                "weaponpart"
+            ]
+        },
+        {
+            "name": "ReduceInfectionPower",
+            "itemTypes": [
+                "food"
+            ]
+        },
+        {
+            "name": "Reloadtime",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "ReloadTimeModifier",
+            "itemTypes": [
+                "weaponpart"
+            ]
+        },
+        {
+            "name": "RemoteController",
+            "itemTypes": [
+                "normal"
+            ]
+        },
+        {
+            "name": "RemoteRange",
+            "itemTypes": [
+                "normal"
+            ]
+        },
+        {
+            "name": "RemoveNegativeEffectOnCooked",
+            "itemTypes": [
+                "food"
             ]
         },
         {
@@ -512,34 +1833,9 @@
             ]
         },
         {
-            "name": "StompPower",
+            "name": "RemoveUnhappinessWhenCooked",
             "itemTypes": [
-                "clothing"
-            ]
-        },
-        {
-            "name": "StaticModel",
-            "itemTypes": [
-                "clothing",
-                "container",
-                "drainable",
-                "food",
-                "literature",
-                "map",
-                "moveable",
-                "normal",
-                "radio",
-                "weaponpart"
-            ]
-        },
-        {
-            "name": "EatType",
-            "itemTypes": [
-                "clothing",
-                "drainable",
-                "food",
-                "normal",
-                "weapon"
+                "food"
             ]
         },
         {
@@ -563,138 +1859,9 @@
             ]
         },
         {
-            "name": "component",
+            "name": "ReplaceOnCooked",
             "itemTypes": [
-                "clothing",
-                "container",
-                "normal",
-                "weapon"
-            ]
-        },
-        {
-            "name": "AttachmentReplacement",
-            "itemTypes": [
-                "container",
-                "radio"
-            ]
-        },
-        {
-            "name": "CanBeEquipped",
-            "itemTypes": [
-                "container",
-                "radio"
-            ]
-        },
-        {
-            "name": "Capacity",
-            "itemTypes": [
-                "container"
-            ]
-        },
-        {
-            "name": "CloseSound",
-            "itemTypes": [
-                "container"
-            ]
-        },
-        {
-            "name": "OpenSound",
-            "itemTypes": [
-                "container"
-            ]
-        },
-        {
-            "name": "PutInSound",
-            "itemTypes": [
-                "container"
-            ]
-        },
-        {
-            "name": "WeightReduction",
-            "itemTypes": [
-                "container"
-            ]
-        },
-        {
-            "name": "EquipSound",
-            "itemTypes": [
-                "container",
-                "drainable",
-                "weapon"
-            ]
-        },
-        {
-            "name": "SoundParameter",
-            "itemTypes": [
-                "container"
-            ]
-        },
-        {
-            "name": "MaxItemSize",
-            "itemTypes": [
-                "container"
-            ]
-        },
-        {
-            "name": "Medical",
-            "itemTypes": [
-                "container",
-                "drainable",
-                "food",
-                "normal"
-            ]
-        },
-        {
-            "name": "book_subject",
-            "itemTypes": [
-                "container",
-                "literature"
-            ]
-        },
-        {
-            "name": "WorldStaticModelsByIndex",
-            "itemTypes": [
-                "container",
-                "food",
-                "key",
-                "literature",
-                "normal",
-                "weapon"
-            ]
-        },
-        {
-            "name": "AcceptItemFunction",
-            "itemTypes": [
-                "container"
-            ]
-        },
-        {
-            "name": "SurvivalGear",
-            "itemTypes": [
-                "container",
-                "drainable",
-                "food",
-                "map",
-                "normal",
-                "weapon"
-            ]
-        },
-        {
-            "name": "UseDelta",
-            "itemTypes": [
-                "drainable",
-                "food",
-                "radio",
-                "weaponpart"
-            ]
-        },
-        {
-            "name": "UseWhileEquipped",
-            "itemTypes": [
-                "drainable",
-                "food",
-                "normal",
-                "radio"
+                "food"
             ]
         },
         {
@@ -704,379 +1871,20 @@
             ]
         },
         {
-            "name": "CanStoreWater",
-            "itemTypes": [
-                "drainable",
-                "normal",
-                "weapon"
-            ]
-        },
-        {
-            "name": "CookingSound",
-            "itemTypes": [
-                "drainable",
-                "food",
-                "normal"
-            ]
-        },
-        {
-            "name": "PourType",
-            "itemTypes": [
-                "drainable",
-                "food",
-                "normal"
-            ]
-        },
-        {
-            "name": "FillFromDispenserSound",
-            "itemTypes": [
-                "drainable",
-                "normal"
-            ]
-        },
-        {
-            "name": "FillFromTapSound",
-            "itemTypes": [
-                "drainable",
-                "normal"
-            ]
-        },
-        {
-            "name": "IsCookable",
-            "itemTypes": [
-                "drainable",
-                "food",
-                "normal",
-                "weapon"
-            ]
-        },
-        {
-            "name": "IsWaterSource",
-            "itemTypes": [
-                "drainable"
-            ]
-        },
-        {
-            "name": "RainFactor",
-            "itemTypes": [
-                "drainable",
-                "normal",
-                "weapon"
-            ]
-        },
-        {
-            "name": "Eattime",
-            "itemTypes": [
-                "drainable",
-                "food",
-                "normal"
-            ]
-        },
-        {
-            "name": "IconColorMask",
-            "itemTypes": [
-                "drainable",
-                "literature",
-                "normal",
-                "weapon"
-            ]
-        },
-        {
-            "name": "MakeUpType",
-            "itemTypes": [
-                "drainable"
-            ]
-        },
-        {
-            "name": "CantEat",
-            "itemTypes": [
-                "drainable",
-                "food"
-            ]
-        },
-        {
-            "name": "AnimalFeedType",
-            "itemTypes": [
-                "drainable",
-                "food"
-            ]
-        },
-        {
-            "name": "cantBeConsolided",
-            "itemTypes": [
-                "drainable"
-            ]
-        },
-        {
-            "name": "DisappearOnUse",
-            "itemTypes": [
-                "drainable",
-                "radio",
-                "weaponpart"
-            ]
-        },
-        {
-            "name": "ConditionLowerStandard",
-            "itemTypes": [
-                "drainable",
-                "normal"
-            ]
-        },
-        {
-            "name": "ConsolidateOption",
-            "itemTypes": [
-                "drainable"
-            ]
-        },
-        {
-            "name": "LightDistance",
-            "itemTypes": [
-                "drainable",
-                "weaponpart"
-            ]
-        },
-        {
-            "name": "LightStrength",
-            "itemTypes": [
-                "drainable",
-                "weaponpart"
-            ]
-        },
-        {
-            "name": "ticksPerEquipUse",
-            "itemTypes": [
-                "drainable"
-            ]
-        },
-        {
-            "name": "TorchCone",
-            "itemTypes": [
-                "drainable",
-                "weaponpart"
-            ]
-        },
-        {
-            "name": "WeightEmpty",
-            "itemTypes": [
-                "drainable",
-                "food",
-                "normal"
-            ]
-        },
-        {
-            "name": "SoundMap",
-            "itemTypes": [
-                "drainable",
-                "food",
-                "weapon",
-                "weaponpart"
-            ]
-        },
-        {
-            "name": "CantBeFrozen",
-            "itemTypes": [
-                "drainable",
-                "food"
-            ]
-        },
-        {
-            "name": "EvolvedRecipe",
-            "itemTypes": [
-                "drainable",
-                "food"
-            ]
-        },
-        {
-            "name": "Packaged",
-            "itemTypes": [
-                "drainable",
-                "food",
-                "normal"
-            ]
-        },
-        {
-            "name": "Spice",
-            "itemTypes": [
-                "drainable",
-                "food"
-            ]
-        },
-        {
-            "name": "HungerChange",
-            "itemTypes": [
-                "drainable",
-                "food"
-            ]
-        },
-        {
-            "name": "UnhappyChange",
-            "itemTypes": [
-                "drainable",
-                "food",
-                "literature"
-            ]
-        },
-        {
-            "name": "Calories",
-            "itemTypes": [
-                "drainable",
-                "food",
-                "normal"
-            ]
-        },
-        {
-            "name": "Carbohydrates",
-            "itemTypes": [
-                "drainable",
-                "food",
-                "normal"
-            ]
-        },
-        {
-            "name": "Lipids",
-            "itemTypes": [
-                "drainable",
-                "food",
-                "normal"
-            ]
-        },
-        {
-            "name": "Proteins",
-            "itemTypes": [
-                "drainable",
-                "food",
-                "normal"
-            ]
-        },
-        {
-            "name": "FoodType",
-            "itemTypes": [
-                "drainable",
-                "food"
-            ]
-        },
-        {
-            "name": "EvolvedRecipeName",
-            "itemTypes": [
-                "drainable",
-                "food"
-            ]
-        },
-        {
-            "name": "FireFuelRatio",
-            "itemTypes": [
-                "drainable",
-                "moveable",
-                "normal",
-                "weapon"
-            ]
-        },
-        {
-            "name": "TorchDot",
-            "itemTypes": [
-                "drainable",
-                "weaponpart"
-            ]
-        },
-        {
-            "name": "primaryAnimMask",
-            "itemTypes": [
-                "drainable",
-                "normal",
-                "weaponpart"
-            ]
-        },
-        {
-            "name": "secondaryAnimMask",
-            "itemTypes": [
-                "drainable",
-                "normal",
-                "weaponpart"
-            ]
-        },
-        {
-            "name": "AttachmentType",
-            "itemTypes": [
-                "drainable",
-                "normal",
-                "radio",
-                "weapon"
-            ]
-        },
-        {
             "name": "ReplaceOnExtinguish",
             "itemTypes": [
                 "drainable"
             ]
         },
         {
-            "name": "DoubleClickRecipe",
+            "name": "ReplaceOnRotten",
             "itemTypes": [
-                "drainable",
-                "food",
-                "literature",
-                "normal"
-            ]
-        },
-        {
-            "name": "fatigueChange",
-            "itemTypes": [
-                "drainable",
                 "food"
             ]
         },
         {
-            "name": "StressChange",
+            "name": "ReplaceOnUse",
             "itemTypes": [
-                "drainable",
-                "food",
-                "literature"
-            ]
-        },
-        {
-            "name": "AlcoholPower",
-            "itemTypes": [
-                "drainable"
-            ]
-        },
-        {
-            "name": "ScaleWorldIcon",
-            "itemTypes": [
-                "drainable"
-            ]
-        },
-        {
-            "name": "UseWorldItem",
-            "itemTypes": [
-                "drainable"
-            ]
-        },
-        {
-            "name": "OnEat",
-            "itemTypes": [
-                "drainable",
-                "food"
-            ]
-        },
-        {
-            "name": "CustomContextMenu",
-            "itemTypes": [
-                "drainable",
-                "food",
-                "normal"
-            ]
-        },
-        {
-            "name": "FoodSicknessChange",
-            "itemTypes": [
-                "drainable",
-                "food"
-            ]
-        },
-        {
-            "name": "CustomEatSound",
-            "itemTypes": [
-                "drainable",
                 "food",
                 "normal"
             ]
@@ -1089,325 +1897,63 @@
             ]
         },
         {
-            "name": "InverseCoughProbability",
+            "name": "RequiresEquippedBothHands",
             "itemTypes": [
-                "drainable",
-                "food"
-            ]
-        },
-        {
-            "name": "InverseCoughProbabilitySmoker",
-            "itemTypes": [
-                "drainable",
-                "food"
-            ]
-        },
-        {
-            "name": "UseWhileUnequipped",
-            "itemTypes": [
-                "drainable"
-            ]
-        },
-        {
-            "name": "UnequipSound",
-            "itemTypes": [
-                "drainable",
+                "moveable",
                 "normal",
                 "weapon"
             ]
         },
         {
-            "name": "VehicleType",
+            "name": "Researchablerecipes",
             "itemTypes": [
+                "clothing",
+                "container",
                 "drainable",
-                "normal"
-            ]
-        },
-        {
-            "name": "ChanceToSpawnDamaged",
-            "itemTypes": [
-                "drainable",
-                "normal"
-            ]
-        },
-        {
-            "name": "MechanicsItem",
-            "itemTypes": [
-                "drainable",
-                "normal"
-            ]
-        },
-        {
-            "name": "ReplaceOnUse",
-            "itemTypes": [
                 "food",
-                "normal"
-            ]
-        },
-        {
-            "name": "DaysFresh",
-            "itemTypes": [
-                "food"
-            ]
-        },
-        {
-            "name": "DaysTotallyRotten",
-            "itemTypes": [
-                "food"
-            ]
-        },
-        {
-            "name": "GoodHot",
-            "itemTypes": [
-                "food"
-            ]
-        },
-        {
-            "name": "MinutesToCook",
-            "itemTypes": [
-                "food"
-            ]
-        },
-        {
-            "name": "MinutesToBurn",
-            "itemTypes": [
-                "food"
-            ]
-        },
-        {
-            "name": "ThirstChange",
-            "itemTypes": [
-                "food"
-            ]
-        },
-        {
-            "name": "RemoveUnhappinessWhenCooked",
-            "itemTypes": [
-                "food"
-            ]
-        },
-        {
-            "name": "DangerousUncooked",
-            "itemTypes": [
-                "food"
-            ]
-        },
-        {
-            "name": "BadCold",
-            "itemTypes": [
-                "food"
-            ]
-        },
-        {
-            "name": "BoredomChange",
-            "itemTypes": [
-                "food",
-                "literature"
-            ]
-        },
-        {
-            "name": "BadInMicrowave",
-            "itemTypes": [
-                "food"
-            ]
-        },
-        {
-            "name": "ReplaceOnRotten",
-            "itemTypes": [
-                "food"
-            ]
-        },
-        {
-            "name": "IsDung",
-            "itemTypes": [
-                "food"
-            ]
-        },
-        {
-            "name": "OnCooked",
-            "itemTypes": [
-                "food"
-            ]
-        },
-        {
-            "name": "FishingLure",
-            "itemTypes": [
-                "food",
-                "normal"
-            ]
-        },
-        {
-            "name": "ReplaceOnCooked",
-            "itemTypes": [
-                "food"
-            ]
-        },
-        {
-            "name": "RemoveNegativeEffectOnCooked",
-            "itemTypes": [
-                "food"
-            ]
-        },
-        {
-            "name": "CannedFood",
-            "itemTypes": [
-                "food"
-            ]
-        },
-        {
-            "name": "OpeningRecipe",
-            "itemTypes": [
-                "food",
-                "normal"
-            ]
-        },
-        {
-            "name": "StaticModelsByIndex",
-            "itemTypes": [
-                "food",
-                "literature",
-                "normal"
-            ]
-        },
-        {
-            "name": "HerbalistType",
-            "itemTypes": [
-                "food"
-            ]
-        },
-        {
-            "name": "painReduction",
-            "itemTypes": [
-                "food"
-            ]
-        },
-        {
-            "name": "fluReduction",
-            "itemTypes": [
-                "food"
-            ]
-        },
-        {
-            "name": "enduranceChange",
-            "itemTypes": [
-                "food"
-            ]
-        },
-        {
-            "name": "PoisonPower",
-            "itemTypes": [
-                "food"
-            ]
-        },
-        {
-            "name": "ReduceInfectionPower",
-            "itemTypes": [
-                "food"
-            ]
-        },
-        {
-            "name": "OriginX",
-            "itemTypes": [
-                "key"
-            ]
-        },
-        {
-            "name": "OriginY",
-            "itemTypes": [
-                "key"
-            ]
-        },
-        {
-            "name": "originZ",
-            "itemTypes": [
-                "key"
-            ]
-        },
-        {
-            "name": "DigitalPadlock",
-            "itemTypes": [
-                "key"
-            ]
-        },
-        {
-            "name": "Padlock",
-            "itemTypes": [
-                "key"
-            ]
-        },
-        {
-            "name": "LearnedRecipes",
-            "itemTypes": [
-                "literature"
-            ]
-        },
-        {
-            "name": "ReadType",
-            "itemTypes": [
-                "literature"
-            ]
-        },
-        {
-            "name": "CanBeWrite",
-            "itemTypes": [
-                "literature"
-            ]
-        },
-        {
-            "name": "PageToWrite",
-            "itemTypes": [
-                "literature"
-            ]
-        },
-        {
-            "name": "magazine_subject",
-            "itemTypes": [
-                "literature"
-            ]
-        },
-        {
-            "name": "LvlSkillTrained",
-            "itemTypes": [
-                "literature"
-            ]
-        },
-        {
-            "name": "NumLevelsTrained",
-            "itemTypes": [
-                "literature"
-            ]
-        },
-        {
-            "name": "NumberOfPages",
-            "itemTypes": [
-                "literature"
-            ]
-        },
-        {
-            "name": "SkillTrained",
-            "itemTypes": [
-                "literature"
-            ]
-        },
-        {
-            "name": "Map",
-            "itemTypes": [
-                "map"
-            ]
-        },
-        {
-            "name": "WorldObjectSprite",
-            "itemTypes": [
                 "moveable",
                 "normal",
+                "radio",
+                "weapon"
+            ]
+        },
+        {
+            "name": "RunAnim",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "RunSpeedModifier",
+            "itemTypes": [
+                "clothing",
+                "container",
                 "radio"
             ]
         },
         {
-            "name": "RequiresEquippedBothHands",
+            "name": "ScaleWorldIcon",
             "itemTypes": [
-                "moveable",
+                "drainable"
+            ]
+        },
+        {
+            "name": "ScratchDefense",
+            "itemTypes": [
+                "clothing"
+            ]
+        },
+        {
+            "name": "secondaryAnimMask",
+            "itemTypes": [
+                "drainable",
                 "normal",
+                "weaponpart"
+            ]
+        },
+        {
+            "name": "SensorRange",
+            "itemTypes": [
                 "weapon"
             ]
         },
@@ -1419,60 +1965,65 @@
             ]
         },
         {
-            "name": "IconFluidMask",
+            "name": "ShellFallSound",
             "itemTypes": [
-                "normal",
                 "weapon"
             ]
         },
         {
-            "name": "FillFromLakeSound",
+            "name": "ShoutMultiplier",
             "itemTypes": [
+                "clothing",
                 "normal"
             ]
         },
         {
-            "name": "FillFromToiletSound",
+            "name": "ShoutType",
             "itemTypes": [
+                "clothing",
                 "normal"
             ]
         },
         {
-            "name": "HeadCondition",
+            "name": "SkillTrained",
             "itemTypes": [
-                "normal",
+                "literature"
+            ]
+        },
+        {
+            "name": "SmokeRange",
+            "itemTypes": [
                 "weapon"
             ]
         },
         {
-            "name": "HeadConditionLowerChanceMultiplier",
+            "name": "SoundGain",
             "itemTypes": [
-                "normal",
                 "weapon"
             ]
         },
         {
-            "name": "AlwaysWelcomeGift",
+            "name": "SoundMap",
             "itemTypes": [
-                "normal"
+                "drainable",
+                "food",
+                "weapon",
+                "weaponpart"
             ]
         },
         {
-            "name": "count",
+            "name": "SoundParameter",
             "itemTypes": [
-                "normal"
+                "container"
             ]
         },
         {
-            "name": "RemoteController",
+            "name": "SoundRadius",
             "itemTypes": [
-                "normal"
-            ]
-        },
-        {
-            "name": "RemoteRange",
-            "itemTypes": [
-                "normal"
+                "alarmclock",
+                "alarmclockclothing",
+                "normal",
+                "weapon"
             ]
         },
         {
@@ -1483,367 +2034,16 @@
             ]
         },
         {
-            "name": "MediaCategory",
+            "name": "SpawnWith",
             "itemTypes": [
-                "normal"
+                "clothing"
             ]
         },
         {
-            "name": "Alcoholic",
+            "name": "Spice",
             "itemTypes": [
-                "normal"
-            ]
-        },
-        {
-            "name": "BandagePower",
-            "itemTypes": [
-                "normal"
-            ]
-        },
-        {
-            "name": "CanBandage",
-            "itemTypes": [
-                "normal"
-            ]
-        },
-        {
-            "name": "ItemAfterCleaning",
-            "itemTypes": [
-                "normal"
-            ]
-        },
-        {
-            "name": "DropSound",
-            "itemTypes": [
-                "normal",
-                "weapon"
-            ]
-        },
-        {
-            "name": "PlaceOneSound",
-            "itemTypes": [
-                "normal"
-            ]
-        },
-        {
-            "name": "EquippedNoSprint",
-            "itemTypes": [
-                "normal"
-            ]
-        },
-        {
-            "name": "ProtectFromRainWhenEquipped",
-            "itemTypes": [
-                "normal"
-            ]
-        },
-        {
-            "name": "ItemWhenDry",
-            "itemTypes": [
-                "normal"
-            ]
-        },
-        {
-            "name": "Wet",
-            "itemTypes": [
-                "normal"
-            ]
-        },
-        {
-            "name": "WetCooldown",
-            "itemTypes": [
-                "normal"
-            ]
-        },
-        {
-            "name": "DigType",
-            "itemTypes": [
-                "normal",
-                "weapon"
-            ]
-        },
-        {
-            "name": "Trap",
-            "itemTypes": [
-                "normal"
-            ]
-        },
-        {
-            "name": "MaxCapacity",
-            "itemTypes": [
-                "normal"
-            ]
-        },
-        {
-            "name": "ConditionLowerOffroad",
-            "itemTypes": [
-                "normal"
-            ]
-        },
-        {
-            "name": "wheelFriction",
-            "itemTypes": [
-                "normal"
-            ]
-        },
-        {
-            "name": "brakeForce",
-            "itemTypes": [
-                "normal"
-            ]
-        },
-        {
-            "name": "suspensionDamping",
-            "itemTypes": [
-                "normal"
-            ]
-        },
-        {
-            "name": "suspensionCompression",
-            "itemTypes": [
-                "normal"
-            ]
-        },
-        {
-            "name": "ConditionAffectsCapacity",
-            "itemTypes": [
-                "normal"
-            ]
-        },
-        {
-            "name": "engineLoudness",
-            "itemTypes": [
-                "normal"
-            ]
-        },
-        {
-            "name": "PlaceMultipleSound",
-            "itemTypes": [
-                "normal"
-            ]
-        },
-        {
-            "name": "AmmoType",
-            "itemTypes": [
-                "normal",
-                "weapon"
-            ]
-        },
-        {
-            "name": "CanStack",
-            "itemTypes": [
-                "normal"
-            ]
-        },
-        {
-            "name": "GunType",
-            "itemTypes": [
-                "normal"
-            ]
-        },
-        {
-            "name": "MaxAmmo",
-            "itemTypes": [
-                "normal",
-                "weapon"
-            ]
-        },
-        {
-            "name": "VehiclePartModel",
-            "itemTypes": [
-                "normal"
-            ]
-        },
-        {
-            "name": "BaseVolumeRange",
-            "itemTypes": [
-                "radio"
-            ]
-        },
-        {
-            "name": "IsHighTier",
-            "itemTypes": [
-                "radio"
-            ]
-        },
-        {
-            "name": "IsPortable",
-            "itemTypes": [
-                "radio"
-            ]
-        },
-        {
-            "name": "IsTelevision",
-            "itemTypes": [
-                "radio"
-            ]
-        },
-        {
-            "name": "MaxChannel",
-            "itemTypes": [
-                "radio"
-            ]
-        },
-        {
-            "name": "MicRange",
-            "itemTypes": [
-                "radio"
-            ]
-        },
-        {
-            "name": "MinChannel",
-            "itemTypes": [
-                "radio"
-            ]
-        },
-        {
-            "name": "TransmitRange",
-            "itemTypes": [
-                "radio"
-            ]
-        },
-        {
-            "name": "TwoWay",
-            "itemTypes": [
-                "radio"
-            ]
-        },
-        {
-            "name": "UsesBattery",
-            "itemTypes": [
-                "radio"
-            ]
-        },
-        {
-            "name": "AcceptMediaType",
-            "itemTypes": [
-                "radio"
-            ]
-        },
-        {
-            "name": "NoTransmit",
-            "itemTypes": [
-                "radio"
-            ]
-        },
-        {
-            "name": "BaseSpeed",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "Categories",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "CritDmgMultiplier",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "CriticalChance",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "DamageCategory",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "DamageMakeHole",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "DoorDamage",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "DoorHitSound",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "HitFloorSound",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "HitSound",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "KnockBackOnNoDeath",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "KnockdownMod",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "MaxDamage",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "MaxHitcount",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "MaxRange",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "MinAngle",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "MinDamage",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "MinRange",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "MinimumSwingtime",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "PushBackMod",
-            "itemTypes": [
-                "weapon"
+                "drainable",
+                "food"
             ]
         },
         {
@@ -1859,9 +2059,81 @@
             ]
         },
         {
+            "name": "SplatSize",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "StaticModel",
+            "itemTypes": [
+                "clothing",
+                "container",
+                "drainable",
+                "food",
+                "literature",
+                "map",
+                "moveable",
+                "normal",
+                "radio",
+                "weaponpart"
+            ]
+        },
+        {
+            "name": "StaticModelsByIndex",
+            "itemTypes": [
+                "food",
+                "literature",
+                "normal"
+            ]
+        },
+        {
+            "name": "StompPower",
+            "itemTypes": [
+                "clothing"
+            ]
+        },
+        {
+            "name": "StopPower",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "StressChange",
+            "itemTypes": [
+                "drainable",
+                "food",
+                "literature"
+            ]
+        },
+        {
             "name": "SubCategory",
             "itemTypes": [
                 "weapon"
+            ]
+        },
+        {
+            "name": "SurvivalGear",
+            "itemTypes": [
+                "container",
+                "drainable",
+                "food",
+                "map",
+                "normal",
+                "weapon"
+            ]
+        },
+        {
+            "name": "suspensionCompression",
+            "itemTypes": [
+                "normal"
+            ]
+        },
+        {
+            "name": "suspensionDamping",
+            "itemTypes": [
+                "normal"
             ]
         },
         {
@@ -1889,109 +2161,86 @@
             ]
         },
         {
+            "name": "Tags",
+            "itemTypes": [
+                "alarmclock",
+                "alarmclockclothing",
+                "clothing",
+                "container",
+                "drainable",
+                "food",
+                "key",
+                "literature",
+                "map",
+                "moveable",
+                "normal",
+                "radio",
+                "weapon",
+                "weaponpart"
+            ]
+        },
+        {
+            "name": "ThirstChange",
+            "itemTypes": [
+                "food"
+            ]
+        },
+        {
+            "name": "ticksPerEquipUse",
+            "itemTypes": [
+                "drainable"
+            ]
+        },
+        {
+            "name": "ToHitModifier",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "Tooltip",
+            "itemTypes": [
+                "clothing",
+                "container",
+                "drainable",
+                "food",
+                "key",
+                "literature",
+                "moveable",
+                "normal",
+                "radio",
+                "weapon",
+                "weaponpart"
+            ]
+        },
+        {
+            "name": "TorchCone",
+            "itemTypes": [
+                "drainable",
+                "weaponpart"
+            ]
+        },
+        {
+            "name": "TorchDot",
+            "itemTypes": [
+                "drainable",
+                "weaponpart"
+            ]
+        },
+        {
+            "name": "TransmitRange",
+            "itemTypes": [
+                "radio"
+            ]
+        },
+        {
+            "name": "Trap",
+            "itemTypes": [
+                "normal"
+            ]
+        },
+        {
             "name": "TreeDamage",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "WeaponLength",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "WeaponSpritesByIndex",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "WeaponSprite",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "CloseKillMove",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "WeaponWeight",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "ImpactSound",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "IdleAnim",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "RunAnim",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "TwoHandWeapon",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "ExplosionPower",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "ExplosionRange",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "ExplosionSound",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "FireStartingEnergy",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "FireStartingChance",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "PhysicsObject",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "PlacedSprite",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "UseSelf",
             "itemTypes": [
                 "weapon"
             ]
@@ -2003,345 +2252,120 @@
             ]
         },
         {
-            "name": "CanBePlaced",
+            "name": "TwoHandWeapon",
             "itemTypes": [
                 "weapon"
             ]
         },
         {
-            "name": "CanBeRemote",
+            "name": "TwoWay",
             "itemTypes": [
+                "radio"
+            ]
+        },
+        {
+            "name": "UnequipSound",
+            "itemTypes": [
+                "drainable",
+                "normal",
                 "weapon"
             ]
         },
         {
-            "name": "ExplosionTimer",
+            "name": "UnhappyChange",
             "itemTypes": [
-                "weapon"
+                "drainable",
+                "food",
+                "literature"
             ]
         },
         {
-            "name": "SensorRange",
+            "name": "UseDelta",
             "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "FireRange",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "CanBeReused",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "NoiseDuration",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "NoiseRange",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "ExplosionDuration",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "SmokeRange",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "CanBarricade",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "OnBreak",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "EnduranceMod",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "HeadConditionMax",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "HitAngleMod",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "SplatSize",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "AlwaysKnockdown",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "CantAttackWithLowestEndurance",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "AimingPerkCritModifier",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "AimingPerkHitChanceModifier",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "AimingPerkMinAngleModifier",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "AimingPerkRangeModifier",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "AimReleaseSound",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "Aimingtime",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "AmmoBox",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "BringToBearSound",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "ClickSound",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "EjectAmmoSound",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "EjectAmmoStartSound",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "EjectAmmoStopSound",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "FireMode",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "FireModePossibilities",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "CyclicRateMultiplier",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "HitChance",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "InsertAmmoSound",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "InsertAmmoStartSound",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "InsertAmmoStopSound",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "IsAimedFirearm",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "JamGunChance",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "MagazineType",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "MinSightRange",
-            "itemTypes": [
-                "weapon",
+                "drainable",
+                "food",
+                "radio",
                 "weaponpart"
-            ]
-        },
-        {
-            "name": "MaxSightRange",
-            "itemTypes": [
-                "weapon",
-                "weaponpart"
-            ]
-        },
-        {
-            "name": "ModelWeaponPart",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "MultipleHitConditionAffected",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "MuzzleFlashModelKey",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "NPCSoundBoost",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "PiercingBullets",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "Projectilecount",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "RackSound",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "Ranged",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "RecoilDelay",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "Reloadtime",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "ShellFallSound",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "SoundGain",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "StopPower",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "ToHitModifier",
-            "itemTypes": [
-                "weapon"
             ]
         },
         {
             "name": "UseEndurance",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "UsesBattery",
+            "itemTypes": [
+                "radio"
+            ]
+        },
+        {
+            "name": "UseSelf",
+            "itemTypes": [
+                "weapon"
+            ]
+        },
+        {
+            "name": "UseWhileEquipped",
+            "itemTypes": [
+                "drainable",
+                "food",
+                "normal",
+                "radio"
+            ]
+        },
+        {
+            "name": "UseWhileUnequipped",
+            "itemTypes": [
+                "drainable"
+            ]
+        },
+        {
+            "name": "UseWorldItem",
+            "itemTypes": [
+                "drainable"
+            ]
+        },
+        {
+            "name": "VehiclePartModel",
+            "itemTypes": [
+                "normal"
+            ]
+        },
+        {
+            "name": "VehicleType",
+            "itemTypes": [
+                "drainable",
+                "normal"
+            ]
+        },
+        {
+            "name": "VisionModifier",
+            "itemTypes": [
+                "clothing"
+            ]
+        },
+        {
+            "name": "VisualAid",
+            "itemTypes": [
+                "clothing"
+            ]
+        },
+        {
+            "name": "WaterResistance",
+            "itemTypes": [
+                "clothing"
+            ]
+        },
+        {
+            "name": "WeaponHitArmourSound",
+            "itemTypes": [
+                "clothing"
+            ]
+        },
+        {
+            "name": "WeaponLength",
             "itemTypes": [
                 "weapon"
             ]
@@ -2353,87 +2377,49 @@
             ]
         },
         {
-            "name": "ClipSize",
+            "name": "WeaponSprite",
             "itemTypes": [
                 "weapon"
             ]
         },
         {
-            "name": "AimingMod",
+            "name": "WeaponSpritesByIndex",
             "itemTypes": [
                 "weapon"
             ]
         },
         {
-            "name": "AngleFalloff",
+            "name": "WeaponWeight",
             "itemTypes": [
                 "weapon"
             ]
         },
         {
-            "name": "HaveChamber",
+            "name": "Weight",
             "itemTypes": [
-                "weapon"
+                "alarmclock",
+                "alarmclockclothing",
+                "animal",
+                "clothing",
+                "container",
+                "drainable",
+                "food",
+                "key",
+                "literature",
+                "map",
+                "moveable",
+                "normal",
+                "radio",
+                "weapon",
+                "weaponpart"
             ]
         },
         {
-            "name": "needtobeclosedoncereload",
+            "name": "WeightEmpty",
             "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "InsertAllBulletsReload",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "IsAimedHandWeapon",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "ProjectileSpread",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "ProjectileWeightCenter",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "RackAfterShoot",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "RangeFalloff",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "ManuallyRemoveSpentRounds",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "OtherHandUse",
-            "itemTypes": [
-                "weapon"
-            ]
-        },
-        {
-            "name": "OtherHandRequire",
-            "itemTypes": [
-                "weapon"
+                "drainable",
+                "food",
+                "normal"
             ]
         },
         {
@@ -2443,69 +2429,84 @@
             ]
         },
         {
-            "name": "AimingTimeModifier",
+            "name": "WeightReduction",
             "itemTypes": [
+                "container"
+            ]
+        },
+        {
+            "name": "Wet",
+            "itemTypes": [
+                "normal"
+            ]
+        },
+        {
+            "name": "WetCooldown",
+            "itemTypes": [
+                "normal"
+            ]
+        },
+        {
+            "name": "wheelFriction",
+            "itemTypes": [
+                "normal"
+            ]
+        },
+        {
+            "name": "WindResistance",
+            "itemTypes": [
+                "clothing",
+                "normal"
+            ]
+        },
+        {
+            "name": "WithDrainable",
+            "itemTypes": [
+                "clothing"
+            ]
+        },
+        {
+            "name": "WithoutDrainable",
+            "itemTypes": [
+                "clothing"
+            ]
+        },
+        {
+            "name": "WorldObjectSprite",
+            "itemTypes": [
+                "moveable",
+                "normal",
+                "radio"
+            ]
+        },
+        {
+            "name": "WorldStaticModel",
+            "itemTypes": [
+                "alarmclock",
+                "alarmclockclothing",
+                "clothing",
+                "container",
+                "drainable",
+                "food",
+                "key",
+                "literature",
+                "map",
+                "moveable",
+                "normal",
+                "radio",
+                "weapon",
                 "weaponpart"
             ]
         },
         {
-            "name": "MountOn",
+            "name": "WorldStaticModelsByIndex",
             "itemTypes": [
-                "weaponpart"
-            ]
-        },
-        {
-            "name": "PartType",
-            "itemTypes": [
-                "weaponpart"
-            ]
-        },
-        {
-            "name": "CanAttach",
-            "itemTypes": [
-                "weaponpart"
-            ]
-        },
-        {
-            "name": "CanDetach",
-            "itemTypes": [
-                "weaponpart"
-            ]
-        },
-        {
-            "name": "ReloadTimeModifier",
-            "itemTypes": [
-                "weaponpart"
-            ]
-        },
-        {
-            "name": "LowLightBonus",
-            "itemTypes": [
-                "weaponpart"
-            ]
-        },
-        {
-            "name": "RecoilDelayModifier",
-            "itemTypes": [
-                "weaponpart"
-            ]
-        },
-        {
-            "name": "HitChanceModifier",
-            "itemTypes": [
-                "weaponpart"
-            ]
-        },
-        {
-            "name": "ProjectileSpreadModifier",
-            "itemTypes": [
-                "weaponpart"
-            ]
-        },
-        {
-            "name": "MaxRangeModifier",
-            "itemTypes": [
-                "weaponpart"
+                "container",
+                "food",
+                "key",
+                "literature",
+                "normal",
+                "weapon"
             ]
         }
     ]

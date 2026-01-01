@@ -17,13 +17,37 @@
     },
     "parameters": [
         {
-            "name": "mesh"
-        },
-        {
-            "name": "texture"
+            "name": "animationsMesh"
         },
         {
             "name": "attachment"
+        },
+        {
+            "name": "boneWeight"
+        },
+        {
+            "name": "ColorBlue"
+        },
+        {
+            "name": "ColorGreen"
+        },
+        {
+            "name": "ColorRed"
+        },
+        {
+            "name": "cullFace"
+        },
+        {
+            "name": "file"
+        },
+        {
+            "name": "invertX"
+        },
+        {
+            "name": "mesh"
+        },
+        {
+            "name": "postProcess"
         },
         {
             "name": "scale"
@@ -32,37 +56,16 @@
             "name": "shader"
         },
         {
-            "name": "static"
-        },
-        {
-            "name": "animationsMesh"
-        },
-        {
-            "name": "undoCoreScale"
-        },
-        {
-            "name": "postProcess"
-        },
-        {
-            "name": "ColorRed"
-        },
-        {
-            "name": "ColorGreen"
-        },
-        {
-            "name": "ColorBlue"
-        },
-        {
-            "name": "invertX"
-        },
-        {
-            "name": "boneWeight"
-        },
-        {
             "name": "specialKeyRing"
         },
         {
-            "name": "cullFace"
+            "name": "static"
+        },
+        {
+            "name": "texture"
+        },
+        {
+            "name": "undoCoreScale"
         }
     ]
 }

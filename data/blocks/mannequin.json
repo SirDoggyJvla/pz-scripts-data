@@ -10,25 +10,25 @@
     "ID": {},
     "parameters": [
         {
-            "name": "female"
-        },
-        {
-            "name": "model"
-        },
-        {
-            "name": "texture"
-        },
-        {
             "name": "animSet"
         },
         {
             "name": "animState"
         },
         {
-            "name": "pose"
+            "name": "female"
+        },
+        {
+            "name": "model"
         },
         {
             "name": "outfit"
+        },
+        {
+            "name": "pose"
+        },
+        {
+            "name": "texture"
         }
     ]
 }

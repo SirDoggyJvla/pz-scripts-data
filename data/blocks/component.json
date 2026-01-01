@@ -19,7 +19,8 @@
             "SpriteOverlayConfig",
             "Durability",
             "FluidContainer",
-            "ContextMenuConfig"
+            "ContextMenuConfig",
+            "WallCoveringConfig"
         ],
         "asType": true
     },

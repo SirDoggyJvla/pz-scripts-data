@@ -11,94 +11,70 @@
     "ID": {},
     "parameters": [
         {
-            "name": "name"
-        },
-        {
-            "name": "inputs"
-        },
-        {
-            "name": "outputs"
-        },
-        {
-            "name": "timedAction"
-        },
-        {
-            "name": "time"
-        },
-        {
-            "name": "SkillRequired"
-        },
-        {
-            "name": "xpAward"
-        },
-        {
-            "name": "category"
-        },
-        {
-            "name": "tags"
-        },
-        {
-            "name": "Tooltip"
-        },
-        {
-            "name": "spriteOutputs"
-        },
-        {
-            "name": "skillBaseHealth"
-        },
-        {
-            "name": "UiConfig"
-        },
-        {
-            "name": "Resources"
-        },
-        {
-            "name": "DryingCraftLogic"
-        },
-        {
-            "name": "health"
-        },
-        {
-            "name": "SpriteOverlayConfig"
-        },
-        {
-            "name": "CraftBenchSounds"
-        },
-        {
-            "name": "isProp"
-        },
-        {
-            "name": "CraftBench"
-        },
-        {
-            "name": "isThumpable"
-        },
-        {
-            "name": "ContextMenuConfig"
-        },
-        {
-            "name": "OnCreate"
-        },
-        {
-            "name": "OnIsValid"
-        },
-        {
-            "name": "TimedActionOnIsValid"
-        },
-        {
-            "name": "corner"
-        },
-        {
-            "name": "dontNeedFrame"
+            "name": "bonusHealth"
         },
         {
             "name": "BreakSound"
         },
         {
-            "name": "OnAddToMenu"
+            "name": "canBePadlocked"
         },
         {
-            "name": "canBePadlocked"
+            "name": "category"
+        },
+        {
+            "name": "ContextMenuConfig"
+        },
+        {
+            "name": "corner"
+        },
+        {
+            "name": "CraftBench"
+        },
+        {
+            "name": "CraftBenchSounds"
+        },
+        {
+            "name": "debugItem"
+        },
+        {
+            "name": "dontNeedFrame"
+        },
+        {
+            "name": "DryingCraftLogic"
+        },
+        {
+            "name": "FluidContainer"
+        },
+        {
+            "name": "health"
+        },
+        {
+            "name": "inputs"
+        },
+        {
+            "name": "isPole"
+        },
+        {
+            "name": "isProp"
+        },
+        {
+            "name": "isThumpable"
+        },
+        {
+            "name": "lightRadius"
+        },
+        {
+            "name": "lightsourceFuel"
+        },
+        {
+            "name": "lightsourceItem"
+        },
+        {
+            "name": "LogicClass"
+        },
+        {
+            "name": "name"
         },
         {
             "name": "needToBeAgainstWall"
@@ -110,34 +86,58 @@
             "name": "needWindowFrame"
         },
         {
-            "name": "FluidContainer"
+            "name": "OnAddToMenu"
         },
         {
-            "name": "bonusHealth"
+            "name": "OnCreate"
         },
         {
-            "name": "lightRadius"
+            "name": "OnIsValid"
         },
         {
-            "name": "lightsourceItem"
-        },
-        {
-            "name": "lightsourceFuel"
-        },
-        {
-            "name": "debugItem"
-        },
-        {
-            "name": "LogicClass"
+            "name": "outputs"
         },
         {
             "name": "previousStage"
         },
         {
-            "name": "isPole"
+            "name": "Resources"
+        },
+        {
+            "name": "skillBaseHealth"
+        },
+        {
+            "name": "SkillRequired"
+        },
+        {
+            "name": "spriteOutputs"
+        },
+        {
+            "name": "SpriteOverlayConfig"
+        },
+        {
+            "name": "tags"
+        },
+        {
+            "name": "time"
+        },
+        {
+            "name": "timedAction"
+        },
+        {
+            "name": "TimedActionOnIsValid"
+        },
+        {
+            "name": "Tooltip"
+        },
+        {
+            "name": "UiConfig"
         },
         {
             "name": "WallCoveringConfig"
+        },
+        {
+            "name": "xpAward"
         }
     ]
 }

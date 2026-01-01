@@ -10,22 +10,22 @@
     "ID": {},
     "parameters": [
         {
+            "name": "BlendWhiteList"
+        },
+        {
+            "name": "Categories"
+        },
+        {
             "name": "ColorReference"
         },
         {
             "name": "DisplayName"
         },
         {
-            "name": "Categories"
-        },
-        {
-            "name": "Properties"
-        },
-        {
             "name": "Poison"
         },
         {
-            "name": "BlendWhiteList"
+            "name": "Properties"
         }
     ]
 }

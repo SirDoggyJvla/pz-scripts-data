@@ -13,13 +13,62 @@
     "ID": {},
     "parameters": [
         {
+            "name": "AllowBatchCraft"
+        },
+        {
+            "name": "AutoLearnAll"
+        },
+        {
+            "name": "AutoLearnAny"
+        },
+        {
+            "name": "category",
+            "description": "The category under which the recipe will be listed in the crafting menu."
+        },
+        {
+            "name": "Icon"
+        },
+        {
             "name": "inputs"
+        },
+        {
+            "name": "itemMappers"
+        },
+        {
+            "name": "MetaRecipe"
+        },
+        {
+            "name": "NeedToBeLearn",
+            "description": "Whether the recipe needs to be learned before it can be crafted."
+        },
+        {
+            "name": "OnCreate"
+        },
+        {
+            "name": "OnTest"
         },
         {
             "name": "outputs"
         },
         {
-            "name": "itemMappers"
+            "name": "overlayStyle"
+        },
+        {
+            "name": "recipeGroup"
+        },
+        {
+            "name": "ResearchAny"
+        },
+        {
+            "name": "ResearchSkillLevel"
+        },
+        {
+            "name": "SkillRequired",
+            "description": "The skill required to craft the item."
+        },
+        {
+            "name": "tags",
+            "description": "Tags to define the special behavior of the recipe."
         },
         {
             "name": "time",
@@ -30,60 +79,11 @@
             "description": "The timed action script to trigger during crafting. Used to trigger animations and/or sounds."
         },
         {
-            "name": "tags",
-            "description": "Tags to define the special behavior of the recipe."
-        },
-        {
-            "name": "category",
-            "description": "The category under which the recipe will be listed in the crafting menu."
-        },
-        {
-            "name": "overlayStyle"
-        },
-        {
-            "name": "OnCreate"
-        },
-        {
-            "name": "SkillRequired",
-            "description": "The skill required to craft the item."
-        },
-        {
-            "name": "NeedToBeLearn",
-            "description": "Whether the recipe needs to be learned before it can be crafted."
+            "name": "Tooltip"
         },
         {
             "name": "xpAward",
             "description": "The amount of experience points awarded upon crafting the item."
-        },
-        {
-            "name": "AutoLearnAll"
-        },
-        {
-            "name": "MetaRecipe"
-        },
-        {
-            "name": "OnTest"
-        },
-        {
-            "name": "Tooltip"
-        },
-        {
-            "name": "AutoLearnAny"
-        },
-        {
-            "name": "recipeGroup"
-        },
-        {
-            "name": "AllowBatchCraft"
-        },
-        {
-            "name": "Icon"
-        },
-        {
-            "name": "ResearchSkillLevel"
-        },
-        {
-            "name": "ResearchAny"
         }
     ]
 }

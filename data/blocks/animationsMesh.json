@@ -10,9 +10,6 @@
     "ID": {},
     "parameters": [
         {
-            "name": "meshFile"
-        },
-        {
             "name": "animationDirectory"
         },
         {
@@ -20,6 +17,9 @@
         },
         {
             "name": "keepMeshAnimations"
+        },
+        {
+            "name": "meshFile"
         },
         {
             "name": "postProcess"

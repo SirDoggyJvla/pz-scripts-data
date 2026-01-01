@@ -10,34 +10,34 @@
     "ID": {},
     "parameters": [
         {
+            "name": "AddIngredientIfCooked"
+        },
+        {
+            "name": "AddIngredientSound"
+        },
+        {
             "name": "BaseItem"
-        },
-        {
-            "name": "MaxItems"
-        },
-        {
-            "name": "ResultItem"
-        },
-        {
-            "name": "Cookable"
-        },
-        {
-            "name": "Name"
-        },
-        {
-            "name": "Template"
-        },
-        {
-            "name": "MinimumWater"
         },
         {
             "name": "CanAddSpicesEmpty"
         },
         {
-            "name": "AddIngredientIfCooked"
+            "name": "Cookable"
         },
         {
-            "name": "AddIngredientSound"
+            "name": "MaxItems"
+        },
+        {
+            "name": "MinimumWater"
+        },
+        {
+            "name": "Name"
+        },
+        {
+            "name": "ResultItem"
+        },
+        {
+            "name": "Template"
         }
     ]
 }

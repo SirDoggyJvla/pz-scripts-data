@@ -10,5 +10,113 @@
     "needsChildren": [
         "inputs"
     ],
-    "parameters": []
+    "parameters": [
+        {
+            "name": "bonusHealth"
+        },
+        {
+            "name": "BreakSound"
+        },
+        {
+            "name": "canBePadlocked"
+        },
+        {
+            "name": "category",
+            "#ref": "craftRecipe/category"
+        },
+        {
+            "name": "corner"
+        },
+        {
+            "name": "debugItem"
+        },
+        {
+            "name": "dontNeedFrame"
+        },
+        {
+            "name": "health"
+        },
+        {
+            "name": "inputs",
+            "#ref": "craftRecipe/inputs"
+        },
+        {
+            "name": "isPole"
+        },
+        {
+            "name": "isProp"
+        },
+        {
+            "name": "isThumpable"
+        },
+        {
+            "name": "lightRadius"
+        },
+        {
+            "name": "lightsourceFuel"
+        },
+        {
+            "name": "lightsourceItem"
+        },
+        {
+            "name": "LogicClass"
+        },
+        {
+            "name": "needToBeAgainstWall"
+        },
+        {
+            "name": "NeedToBeLearn",
+            "#ref": "craftRecipe/NeedToBeLearn"
+        },
+        {
+            "name": "needWindowFrame"
+        },
+        {
+            "name": "OnAddToMenu"
+        },
+        {
+            "name": "OnCreate",
+            "#ref": "craftRecipe/OnCreate"
+        },
+        {
+            "name": "OnIsValid"
+        },
+        {
+            "name": "outputs",
+            "#ref": "craftRecipe/outputs"
+        },
+        {
+            "name": "previousStage"
+        },
+        {
+            "name": "skillBaseHealth"
+        },
+        {
+            "name": "SkillRequired",
+            "#ref": "craftRecipe/SkillRequired"
+        },
+        {
+            "name": "tags",
+            "#ref": "craftRecipe/tags"
+        },
+        {
+            "name": "time",
+            "#ref": "craftRecipe/time"
+        },
+        {
+            "name": "timedAction",
+            "#ref": "craftRecipe/timedAction"
+        },
+        {
+            "name": "TimedActionOnIsValid"
+        },
+        {
+            "name": "Tooltip",
+            "#ref": "craftRecipe/Tooltip"
+        },
+        {
+            "name": "xpAward",
+            "#ref": "craftRecipe/xpAward"
+        }
+    ]
 }

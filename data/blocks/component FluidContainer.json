@@ -7,5 +7,36 @@
     "parents": [
         "item"
     ],
-    "parameters": []
+    "parameters": [
+        {
+            "name": "Capacity"
+        },
+        {
+            "name": "ContainerName"
+        },
+        {
+            "name": "CustomDrinkSound"
+        },
+        {
+            "name": "Fluids"
+        },
+        {
+            "name": "InitialPercentMax"
+        },
+        {
+            "name": "InitialPercentMin"
+        },
+        {
+            "name": "InputLocked"
+        },
+        {
+            "name": "Opened"
+        },
+        {
+            "name": "PickRandomFluid"
+        },
+        {
+            "name": "RainFactor"
+        }
+    ]
 }

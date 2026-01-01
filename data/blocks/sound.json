@@ -23,10 +23,10 @@
             "name": "clip"
         },
         {
-            "name": "master"
+            "name": "loop"
         },
         {
-            "name": "loop"
+            "name": "master"
         },
         {
             "name": "maxInstancesPerEmitter"

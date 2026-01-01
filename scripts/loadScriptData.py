@@ -1,8 +1,7 @@
 import os, json
 from pprint import pprint
 from typing import Callable
-from findParameters import *
-from blocks import BLOCKS, setup_block_paths
+from findParameters import BLOCKS, setup_block_paths
 
 class BlockData:
     def __init__(self, key: str, path: str, parser: Callable):
@@ -27,8 +26,15 @@ class BlockData:
         if self.parser is not None:
             parsed_item_path = BLOCKS[self.key]["parser_data"]
             self.parser(parsed_item_path, data["parameters"])
+        data = self.cleanup(data)
         with open(self.path, "w") as f:
             json.dump(data, f, indent=4)
+
+    @staticmethod
+    def cleanup(data):
+        # order parameters by name
+        data["parameters"].sort(key=lambda x: x["name"].lower())
+        return data
 
 if __name__ == "__main__":
     for block_key, block_info in BLOCKS.items():
@@ -56,13 +62,17 @@ if __name__ == "__main__":
         setup_block_paths(variant_name, block_info)
 
         # if json file doesn't exist, create it as a copy of the base component
-        json_path: str = block_info["json"]
-        if not os.path.exists(json_path):
+        json_path = block_info.get("json")
+        if json_path is not None and not os.path.exists(json_path):
             with open(json_path, "w") as f:
                 json.dump(component_data, f, indent=4)
 
+        # load variant data and set name
         variant_data = BlockData.get(variant_name, block_info)
         variant_data.data["name"] = variant_name # force correct name
+
+        # load parameters from known location
+
+
         variant_data.save_json()
 
-    pprint(component_data)

@@ -10,31 +10,7 @@
     "ID": {},
     "parameters": [
         {
-            "name": "metabolics"
-        },
-        {
             "name": "actionAnim"
-        },
-        {
-            "name": "sound"
-        },
-        {
-            "name": "prop1"
-        },
-        {
-            "name": "prop2"
-        },
-        {
-            "name": "muscleStrainFactor"
-        },
-        {
-            "name": "muscleStrainSkill"
-        },
-        {
-            "name": "muscleStrainParts"
-        },
-        {
-            "name": "soundTime"
         },
         {
             "name": "animVarKey"
@@ -44,6 +20,30 @@
         },
         {
             "name": "completionSound"
+        },
+        {
+            "name": "metabolics"
+        },
+        {
+            "name": "muscleStrainFactor"
+        },
+        {
+            "name": "muscleStrainParts"
+        },
+        {
+            "name": "muscleStrainSkill"
+        },
+        {
+            "name": "prop1"
+        },
+        {
+            "name": "prop2"
+        },
+        {
+            "name": "sound"
+        },
+        {
+            "name": "soundTime"
         }
     ]
 }

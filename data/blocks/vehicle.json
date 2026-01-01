@@ -10,88 +10,28 @@
     "ID": {},
     "parameters": [
         {
-            "name": "neverSpawnKey"
+            "name": "animalTrailerSize"
         },
         {
-            "name": "model"
-        },
-        {
-            "name": "spawnOffsetY"
-        },
-        {
-            "name": "skin"
-        },
-        {
-            "name": "extents"
-        },
-        {
-            "name": "mass"
-        },
-        {
-            "name": "centerOfMassOffset"
-        },
-        {
-            "name": "shadowExtents"
-        },
-        {
-            "name": "shadowOffset"
-        },
-        {
-            "name": "physicsChassisShape"
+            "name": "area"
         },
         {
             "name": "attachment"
         },
         {
-            "name": "part"
+            "name": "brakingForce"
         },
         {
-            "name": "useChassisPhysicsCollision"
+            "name": "carMechanicsOverlay"
         },
         {
-            "name": "physics"
+            "name": "carModelName"
         },
         {
-            "name": "mechanicType"
-        },
-        {
-            "name": "engineRepairLevel"
-        },
-        {
-            "name": "playerDamageProtection"
-        },
-        {
-            "name": "engineRPMType"
-        },
-        {
-            "name": "textureMask"
-        },
-        {
-            "name": "textureLights"
-        },
-        {
-            "name": "textureDamage1Overlay"
-        },
-        {
-            "name": "textureDamage2Overlay"
-        },
-        {
-            "name": "textureDamage1Shell"
-        },
-        {
-            "name": "textureDamage2Shell"
-        },
-        {
-            "name": "textureRust"
-        },
-        {
-            "name": "sound"
+            "name": "centerOfMassOffset"
         },
         {
             "name": "engineForce"
-        },
-        {
-            "name": "maxSpeed"
         },
         {
             "name": "engineLoudness"
@@ -100,58 +40,19 @@
             "name": "engineQuality"
         },
         {
-            "name": "brakingForce"
+            "name": "engineRepairLevel"
         },
         {
-            "name": "stoppingMovementForce"
+            "name": "engineRPMType"
         },
         {
-            "name": "rollInfluence"
+            "name": "extents"
         },
         {
-            "name": "steeringIncrement"
-        },
-        {
-            "name": "steeringClamp"
-        },
-        {
-            "name": "suspensionStiffness"
-        },
-        {
-            "name": "suspensionCompression"
-        },
-        {
-            "name": "suspensionDamping"
-        },
-        {
-            "name": "maxSuspensionTravelCm"
-        },
-        {
-            "name": "suspensionRestLength"
-        },
-        {
-            "name": "wheelFriction"
+            "name": "extentsOffset"
         },
         {
             "name": "frontEndHealth"
-        },
-        {
-            "name": "rearEndHealth"
-        },
-        {
-            "name": "seats"
-        },
-        {
-            "name": "wheel"
-        },
-        {
-            "name": "area"
-        },
-        {
-            "name": "gearRatioCount"
-        },
-        {
-            "name": "gearRatioR"
         },
         {
             "name": "gearRatio1"
@@ -166,46 +67,145 @@
             "name": "gearRatio4"
         },
         {
-            "name": "extentsOffset"
+            "name": "gearRatio5"
         },
         {
-            "name": "lightbar"
+            "name": "gearRatioCount"
         },
         {
-            "name": "offRoadEfficiency"
+            "name": "gearRatioR"
         },
         {
             "name": "isSmallVehicle"
         },
         {
-            "name": "zombieType"
+            "name": "lightbar"
+        },
+        {
+            "name": "mass"
+        },
+        {
+            "name": "maxSpeed"
+        },
+        {
+            "name": "maxSuspensionTravelCm"
+        },
+        {
+            "name": "mechanicType"
+        },
+        {
+            "name": "model"
+        },
+        {
+            "name": "neverSpawnKey"
+        },
+        {
+            "name": "offRoadEfficiency"
+        },
+        {
+            "name": "part"
         },
         {
             "name": "passenger"
         },
         {
+            "name": "physics"
+        },
+        {
+            "name": "physicsChassisShape"
+        },
+        {
+            "name": "playerDamageProtection"
+        },
+        {
+            "name": "rearEndHealth"
+        },
+        {
+            "name": "rollInfluence"
+        },
+        {
+            "name": "seatNumber"
+        },
+        {
+            "name": "seats"
+        },
+        {
+            "name": "shadowExtents"
+        },
+        {
+            "name": "shadowOffset"
+        },
+        {
+            "name": "skin"
+        },
+        {
+            "name": "sound"
+        },
+        {
+            "name": "spawnOffsetY"
+        },
+        {
             "name": "specialKeyRing"
-        },
-        {
-            "name": "carMechanicsOverlay"
-        },
-        {
-            "name": "carModelName"
         },
         {
             "name": "specialKeyRingChance"
         },
         {
-            "name": "gearRatio5"
-        },
-        {
             "name": "specialLootChance"
         },
         {
-            "name": "animalTrailerSize"
+            "name": "steeringClamp"
         },
         {
-            "name": "seatNumber"
+            "name": "steeringIncrement"
+        },
+        {
+            "name": "stoppingMovementForce"
+        },
+        {
+            "name": "suspensionCompression"
+        },
+        {
+            "name": "suspensionDamping"
+        },
+        {
+            "name": "suspensionRestLength"
+        },
+        {
+            "name": "suspensionStiffness"
+        },
+        {
+            "name": "textureDamage1Overlay"
+        },
+        {
+            "name": "textureDamage1Shell"
+        },
+        {
+            "name": "textureDamage2Overlay"
+        },
+        {
+            "name": "textureDamage2Shell"
+        },
+        {
+            "name": "textureLights"
+        },
+        {
+            "name": "textureMask"
+        },
+        {
+            "name": "textureRust"
+        },
+        {
+            "name": "useChassisPhysicsCollision"
+        },
+        {
+            "name": "wheel"
+        },
+        {
+            "name": "wheelFriction"
+        },
+        {
+            "name": "zombieType"
         }
     ]
 }
