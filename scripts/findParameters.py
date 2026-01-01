@@ -43,8 +43,23 @@ def verify_multiple_cases(uniques: dict, param_key: str) -> None:
         if uniques[lower_key] != param_key:
             echo.warning(f"Parameter name has multiple cases for '{lower_key}': '{uniques[lower_key]}' vs '{param_key}'")
 
+def verify_complex_parameter(existing: int|None, checked: list, param_key: str, param_value: Any) -> bool:
+    # register parameter
+    namedLikeBlock = param_key.lower() in EXISTING_BLOCKS
+    if type(param_value) == dict or namedLikeBlock:
+        blockStr = color.debug('(named like existing block)') if namedLikeBlock else ''
+        inExisting = existing is not None
+        inExistingStr = color.debug2('(in existing parameters)') if inExisting else ''
+        if param_key not in checked:
+            echo.warning(f"Skipping complex parameter '{color.red(param_key)}' {blockStr} {inExistingStr}")
+            checked.append(param_key)
+        return True
+    return False
 
-def find_parameters(parsed_path: str, parameters: list) -> list:
+
+
+def find_parameters(parsed_path: str, parameters: list, block_name: str) -> list:
+    echo.debug(f"Searching for {color.blue(block_name)}")
     # parse the data from the parser output
     with open(parsed_path, "r") as f:
         parsed_data = _clean_parsed(json.load(f))
@@ -54,13 +69,6 @@ def find_parameters(parsed_path: str, parameters: list) -> list:
     for id, data in parsed_data.items():
         for param_key, param_value in data.items():
             verify_multiple_cases(uniques, param_key)
-
-            # register parameter
-            if type(param_value) == dict:
-                if param_key not in potentialScriptBlocks:
-                    echo.warning(f"Skipping complex parameter '{param_key}'")
-                    potentialScriptBlocks.append(param_key)
-                continue
             
             existing = find_existing(parameters, param_key)
             if existing is None:
@@ -73,28 +81,25 @@ def find_parameters(parsed_path: str, parameters: list) -> list:
     return parameters
 
 
-def find_item_parameters(parsed_path: str, parameters: list) -> list:
+def find_item_parameters(parsed_path: str, parameters: list, block_name: str) -> list:
+    echo.debug(f"Searching for {color.blue(block_name)}")
     # parse the item data from the parser output
     with open(parsed_path, "r") as f:
         parsed_data = _clean_parsed(json.load(f))
         echo.info(f"Loaded parsed data from {parsed_path}")
 
     uniques = {}
+    checked = []
     for item_id, item_data in parsed_data.items():
         for param_key, param_value in item_data.items():
             lower_key = param_key.lower()
 
             verify_multiple_cases(uniques, param_key)
 
-            # register parameter
-            if type(param_value) == dict:
-                if param_key not in potentialScriptBlocks:
-                    echo.warning(f"Skipping complex parameter '{param_key}'")
-                    potentialScriptBlocks.append(param_key)
-                continue
+            existing = find_existing(parameters, param_key)
+            if verify_complex_parameter(existing, checked, param_key, param_value): continue
 
             itemType = item_data["ItemType"]
-            existing = find_existing(parameters, param_key)
             if existing is None:
                 parameters.append({
                     "name": param_key,
@@ -110,14 +115,16 @@ def find_item_parameters(parsed_path: str, parameters: list) -> list:
     
     return parameters
 
-_ignore_params_recipe = ["name", "default"]
-def find_craftRecipe_parameters(parsed_path: str, parameters: list) -> list:
+_ignore_params_recipe = ["name", "default", "inputs", "outputs", "itemMapper"]
+def find_craftRecipe_parameters(parsed_path: str, parameters: list, block_name: str) -> list:
+    echo.debug(f"Searching for {color.blue(block_name)}")
     # parse the data from the parser output
     with open(parsed_path, "r") as f:
         parsed_data = _clean_parsed(json.load(f))
         echo.info(f"Loaded parsed data from {parsed_path}")
 
     uniques = {}
+    checked = []
     for model_id, model_data in parsed_data.items():
         for param_key, param_value in model_data.items():
             lower_key = param_key.lower()
@@ -125,14 +132,9 @@ def find_craftRecipe_parameters(parsed_path: str, parameters: list) -> list:
 
             verify_multiple_cases(uniques, param_key)
 
-            # register parameter
-            if type(param_value) == dict:
-                if param_key not in potentialScriptBlocks:
-                    echo.warning(f"Skipping complex parameter '{param_key}'")
-                    potentialScriptBlocks.append(param_key)
-                continue
-            
             existing = find_existing(parameters, param_key)
+            if verify_complex_parameter(existing, checked, param_key, param_value): continue
+            
             if existing is None:
                 parameters.append({
                     "name": param_key,
@@ -145,27 +147,29 @@ def find_craftRecipe_parameters(parsed_path: str, parameters: list) -> list:
 
 
 
-def find_component_FluidContainer_parameters(parsed_path: str, parameters: list) -> list:
+def find_component_FluidContainer_parameters(parsed_path: str, parameters: list, block_name: str) -> list:
+    echo.debug(f"Searching for {color.blue(block_name)}")
+
     # parse the data from the parser output
     with open(parsed_path, "r") as f:
         parsed_data = _clean_parsed(json.load(f))
         echo.info(f"Loaded parsed data from {parsed_path}")
 
     uniques = {}
+    checked = []
     for item_id, item_data in parsed_data.items():
         components = item_data.get("component", {})
-        fluidContainer = components.get("FluidContainer", {})
+        fluidContainer = components.get("FluidContainer", None)
+        if not fluidContainer:
+            continue
+        # print("\n", item_id)
         for param_key, param_value in fluidContainer.items():
             verify_multiple_cases(uniques, param_key)
 
-            # register parameter
-            if type(param_value) == dict:
-                if param_key not in potentialScriptBlocks:
-                    echo.warning(f"Skipping complex parameter '{param_key}'")
-                    potentialScriptBlocks.append(param_key)
-                continue
-            
             existing = find_existing(parameters, param_key)
+            if verify_complex_parameter(existing, checked, param_key, param_value): continue
+            # print(param_key)
+            
             if existing is None:
                 parameters.append({
                     "name": param_key,
@@ -176,7 +180,8 @@ def find_component_FluidContainer_parameters(parsed_path: str, parameters: list)
     return parameters
 
 
-def find_component_CraftRecipe_parameters(parsed_path: str, parameters: list) -> list:
+def find_component_CraftRecipe_parameters(parsed_path: str, parameters: list, block_name: str) -> list:
+    echo.debug(f"Searching for {color.blue(block_name)}")
     # parse the data from the parser output
     with open(parsed_path, "r") as f:
         parsed_data = _clean_parsed(json.load(f))
@@ -186,11 +191,11 @@ def find_component_CraftRecipe_parameters(parsed_path: str, parameters: list) ->
     data_craftRecipe_path = BLOCKS["craftRecipe"]["json"]
     with open(data_craftRecipe_path, "r") as f:
         data_craftRecipe_data = _clean_parsed(json.load(f))
-        echo.info(f"Loaded parsed data from {data_craftRecipe_path}")
 
     craftRecipe_parameters = load_existing(data_craftRecipe_data.get("parameters", []))
 
     uniques = {}
+    checked = []
     for item_id, item_data in parsed_data.items():
         for param_key, param_value in item_data.items():
             lower_key = param_key.lower()
@@ -198,14 +203,9 @@ def find_component_CraftRecipe_parameters(parsed_path: str, parameters: list) ->
 
             verify_multiple_cases(uniques, param_key)
 
-            # register parameter
-            if type(param_value) == dict:
-                if param_key not in potentialScriptBlocks:
-                    echo.warning(f"Skipping complex parameter '{param_key}'")
-                    potentialScriptBlocks.append(param_key)
-                continue
-            
             existing = find_existing(parameters, param_key)
+            if verify_complex_parameter(existing, checked, param_key, param_value): continue
+            
             if existing is None:
                 if param_key in craftRecipe_parameters:
                     parameters.append({
@@ -295,4 +295,4 @@ for filename in os.listdir(_BLOCKS_PATH):
     if filename.endswith(".json"):
         block_name = filename[:-5]  # remove .json extension
         echo.info(f"Registering existing block: {block_name}")
-        EXISTING_BLOCKS[block_name] = os.path.join(_BLOCKS_PATH, filename)
+        EXISTING_BLOCKS[block_name.lower()] = os.path.join(_BLOCKS_PATH, filename)

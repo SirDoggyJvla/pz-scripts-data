@@ -118,11 +118,7 @@ def debug(message: str):
     Args:
         message (str): The debug text to display.
     """
-    from scripts.core import config_manager as config
-    debug_mode = config.get_debug_mode()
-
-    if debug_mode:
-        _message(message, "[Debug]", color.debug)
+    _message(message, "[Debug]", color.debug)
 
 def deprecated(message: str):
     """

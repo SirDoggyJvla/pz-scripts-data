@@ -29,9 +29,6 @@
             "name": "Icon"
         },
         {
-            "name": "inputs"
-        },
-        {
             "name": "itemMappers"
         },
         {
@@ -46,9 +43,6 @@
         },
         {
             "name": "OnTest"
-        },
-        {
-            "name": "outputs"
         },
         {
             "name": "overlayStyle"

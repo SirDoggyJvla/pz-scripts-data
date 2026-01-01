@@ -80,9 +80,14 @@ def dimmed(text: str) -> str:
 def debug(text: str) -> str:
     return style(text, BG_BRIGHT_MAGENTA, BOLD)
 
+def debug2(text: str) -> str:
+    return style(text, BG_BRIGHT_YELLOW, BOLD)
+
 def red(text: str) -> str:
     return style(text, RED)
 
 def green(text: str) -> str:
     return style(text, GREEN)
 
+def blue(text: str) -> str:
+    return style(text, BRIGHT_BLUE)

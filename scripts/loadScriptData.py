@@ -25,7 +25,7 @@ class BlockData:
             data["parameters"] = []
         if self.parser is not None:
             parsed_item_path = BLOCKS[self.key]["parser_data"]
-            self.parser(parsed_item_path, data["parameters"])
+            self.parser(parsed_item_path, data["parameters"], data["name"])
         data = self.cleanup(data)
         with open(self.path, "w") as f:
             json.dump(data, f, indent=4)

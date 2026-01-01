@@ -25,13 +25,28 @@
             "#ref": "craftRecipe/category"
         },
         {
+            "name": "ContextMenuConfig"
+        },
+        {
             "name": "corner"
+        },
+        {
+            "name": "CraftBench"
+        },
+        {
+            "name": "CraftBenchSounds"
         },
         {
             "name": "debugItem"
         },
         {
             "name": "dontNeedFrame"
+        },
+        {
+            "name": "DryingCraftLogic"
+        },
+        {
+            "name": "FluidContainer"
         },
         {
             "name": "health"
@@ -89,11 +104,20 @@
             "name": "previousStage"
         },
         {
+            "name": "Resources"
+        },
+        {
             "name": "skillBaseHealth"
         },
         {
             "name": "SkillRequired",
             "#ref": "craftRecipe/SkillRequired"
+        },
+        {
+            "name": "spriteOutputs"
+        },
+        {
+            "name": "SpriteOverlayConfig"
         },
         {
             "name": "tags",
@@ -113,6 +137,12 @@
         {
             "name": "Tooltip",
             "#ref": "craftRecipe/Tooltip"
+        },
+        {
+            "name": "UiConfig"
+        },
+        {
+            "name": "WallCoveringConfig"
         },
         {
             "name": "xpAward",

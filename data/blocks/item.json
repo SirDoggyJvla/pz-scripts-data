@@ -503,15 +503,6 @@
             ]
         },
         {
-            "name": "component",
-            "itemTypes": [
-                "clothing",
-                "container",
-                "normal",
-                "weapon"
-            ]
-        },
-        {
             "name": "ConditionAffectsCapacity",
             "itemTypes": [
                 "normal"
@@ -793,6 +784,7 @@
         },
         {
             "name": "EvolvedRecipe",
+            "description": "List of evolved recipes this item can be used in.",
             "itemTypes": [
                 "drainable",
                 "food"
@@ -2009,7 +2001,8 @@
                 "food",
                 "weapon",
                 "weaponpart"
-            ]
+            ],
+            "allowedDuplicate": true
         },
         {
             "name": "SoundParameter",
