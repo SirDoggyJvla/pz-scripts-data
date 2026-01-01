@@ -243,7 +243,7 @@ BLOCKS = {
     "component": {
         "parser_function": None,
     },
-    "entity": {},
+    # "entity": {},
     "evolvedrecipe": {},
     "fixing": {
         "parser_function": None,
@@ -261,10 +261,10 @@ BLOCKS = {
         "parser_function": find_component_FluidContainer_parameters,
         "parser_data": "data/cache/parsed_item_data.json",
     },
-    "component CraftRecipe": {
-        "parser_function": find_component_CraftRecipe_parameters,
-        "parser_data": "data/cache/parsed_entity_data.json",
-    }
+    # "component CraftRecipe": {
+    #     "parser_function": find_component_CraftRecipe_parameters,
+    #     "parser_data": "data/cache/parsed_entity_data.json",
+    # },
 }
 
 

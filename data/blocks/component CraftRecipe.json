@@ -12,79 +12,12 @@
     ],
     "parameters": [
         {
-            "name": "bonusHealth"
-        },
-        {
-            "name": "BreakSound"
-        },
-        {
-            "name": "canBePadlocked"
-        },
-        {
             "name": "category",
             "#ref": "craftRecipe/category"
         },
         {
-            "name": "ContextMenuConfig"
-        },
-        {
-            "name": "corner"
-        },
-        {
-            "name": "CraftBench"
-        },
-        {
-            "name": "CraftBenchSounds"
-        },
-        {
-            "name": "debugItem"
-        },
-        {
-            "name": "dontNeedFrame"
-        },
-        {
-            "name": "DryingCraftLogic"
-        },
-        {
-            "name": "FluidContainer"
-        },
-        {
-            "name": "health"
-        },
-        {
-            "name": "inputs",
-            "#ref": "craftRecipe/inputs"
-        },
-        {
-            "name": "isPole"
-        },
-        {
-            "name": "isProp"
-        },
-        {
-            "name": "isThumpable"
-        },
-        {
-            "name": "lightRadius"
-        },
-        {
-            "name": "lightsourceFuel"
-        },
-        {
-            "name": "lightsourceItem"
-        },
-        {
-            "name": "LogicClass"
-        },
-        {
-            "name": "needToBeAgainstWall"
-        },
-        {
             "name": "NeedToBeLearn",
             "#ref": "craftRecipe/NeedToBeLearn"
-        },
-        {
-            "name": "needWindowFrame"
         },
         {
             "name": "OnAddToMenu"
@@ -94,30 +27,8 @@
             "#ref": "craftRecipe/OnCreate"
         },
         {
-            "name": "OnIsValid"
-        },
-        {
-            "name": "outputs",
-            "#ref": "craftRecipe/outputs"
-        },
-        {
-            "name": "previousStage"
-        },
-        {
-            "name": "Resources"
-        },
-        {
-            "name": "skillBaseHealth"
-        },
-        {
             "name": "SkillRequired",
             "#ref": "craftRecipe/SkillRequired"
-        },
-        {
-            "name": "spriteOutputs"
-        },
-        {
-            "name": "SpriteOverlayConfig"
         },
         {
             "name": "tags",
@@ -132,17 +43,8 @@
             "#ref": "craftRecipe/timedAction"
         },
         {
-            "name": "TimedActionOnIsValid"
-        },
-        {
             "name": "Tooltip",
             "#ref": "craftRecipe/Tooltip"
-        },
-        {
-            "name": "UiConfig"
-        },
-        {
-            "name": "WallCoveringConfig"
         },
         {
             "name": "xpAward",
