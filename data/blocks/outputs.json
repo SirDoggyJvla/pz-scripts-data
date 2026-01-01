@@ -6,6 +6,5 @@
     "shouldHaveParent": true,
     "parents": [
         "craftRecipe"
-    ],
-    "parameters": []
+    ]
 }

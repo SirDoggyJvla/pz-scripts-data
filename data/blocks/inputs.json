@@ -7,6 +7,5 @@
     "parents": [
         "craftRecipe",
         "component CraftRecipe"
-    ],
-    "parameters": []
+    ]
 }
