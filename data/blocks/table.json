@@ -6,5 +6,6 @@
     "shouldHaveParent": true,
     "parents": [
         "part"
-    ]
+    ],
+    "ID": {}
 }
