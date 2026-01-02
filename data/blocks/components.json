@@ -1,15 +1,10 @@
 {
     "version": 1.0,
     "$schema": "../../$schema.json",
-    "name": "layer",
+    "name": "components",
     "description": "",
     "shouldHaveParent": true,
     "parents": [
-        "face"
-    ],
-    "parameters": [
-        {
-            "layer": "row"
-        }
+        "entity"
     ]
 }

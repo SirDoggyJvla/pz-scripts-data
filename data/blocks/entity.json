@@ -9,5 +9,15 @@
         "xuiSkin"
     ],
     "ID": {},
-    "parameters": []
+    "parameters": [
+        {
+            "name": "LuaWindowClass"
+        },
+        {
+            "name": "DisplayName"
+        },
+        {
+            "name": "Icon"
+        }
+    ]
 }

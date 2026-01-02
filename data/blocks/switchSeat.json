@@ -1,21 +1,21 @@
 {
     "version": 1.0,
     "$schema": "../../$schema.json",
-    "name": "component UiConfig",
+    "name": "switchSeat",
     "description": "",
     "shouldHaveParent": true,
     "parents": [
-        "entity"
+        "passenger"
     ],
     "parameters": [
         {
-            "name": "xuiSkin"
+            "name": "anim"
         },
         {
-            "name": "entityStyle"
+            "name": "rate"
         },
         {
-            "name": "uiEnabled"
+            "name": "sound"
         }
     ]
 }

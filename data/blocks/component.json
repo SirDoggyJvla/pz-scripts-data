@@ -13,6 +13,7 @@
             "CraftRecipe",
             "SpriteConfig",
             "UiConfig",
+            "CraftBench",
             "CraftBenchSounds",
             "Resources",
             "DryingCraftLogic",

@@ -7,5 +7,21 @@
     "parents": [
         "animation"
     ],
-    "parameters": []
+    "parameters": [
+        {
+            "name": "frame"
+        },
+        {
+            "name": "source"
+        },
+        {
+            "name": "sourceFrame"
+        },
+        {
+            "name": "sourceFrame1"
+        },
+        {
+            "name": "sourceFrame2"
+        }
+    ]
 }

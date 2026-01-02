@@ -9,5 +9,9 @@
         "vehicle"
     ],
     "ID": {},
-    "parameters": []
+    "parameters": [
+        {
+            "name": "xywh"
+        }
+    ]
 }

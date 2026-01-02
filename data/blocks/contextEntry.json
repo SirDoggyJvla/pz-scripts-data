@@ -7,5 +7,12 @@
     "parents": [
         "component ContextMenuConfig"
     ],
-    "parameters": []
+    "parameters": [
+        {
+            "name": "menu"
+        },
+        {
+            "name": "customFunction"
+        }
+    ]
 }

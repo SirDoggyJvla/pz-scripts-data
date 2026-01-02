@@ -8,5 +8,15 @@
         "passenger"
     ],
     "ID": {},
-    "parameters": []
+    "parameters": [
+        {
+            "name": "offset"
+        },
+        {
+            "name": "rotate"
+        },
+        {
+            "name": "area"
+        }
+    ]
 }

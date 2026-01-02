@@ -7,5 +7,10 @@
     "parents": [
         "component FluidContainer"
     ],
-    "parameters": []
+    "parameters": [
+        {
+            "name": "fluid",
+            "allowedDuplicate": true
+        }
+    ]
 }

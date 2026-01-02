@@ -10,5 +10,15 @@
     "needsChildren": [
         "face"
     ],
-    "parameters": []
+    "parameters": [
+        {
+            "name": "isThumpable"
+        },
+        {
+            "name": "OnCreate"
+        },
+        {
+            "name": "isProp"
+        }
+    ]
 }
