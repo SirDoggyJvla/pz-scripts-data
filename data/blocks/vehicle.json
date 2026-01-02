@@ -177,7 +177,7 @@
         {
             "name": "template",
             "description": "Uses a template script data for this vehicle.",
-            "allowedDuplicate": false
+            "allowedDuplicate": true
         },
         {
             "name": "textureDamage1Overlay"
