@@ -47,6 +47,9 @@
             "name": "mesh"
         },
         {
+            "name": "offset"
+        },
+        {
             "name": "postProcess"
         },
         {

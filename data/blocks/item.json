@@ -601,7 +601,8 @@
                 "food",
                 "normal"
             ],
-            "canBeEmpty": true
+            "canBeEmpty": true,
+            "description": "Custom sound to play when eating or drinking this item, refers to the ID of a sound script. Set to an empty string to disable any sound from playing."
         },
         {
             "name": "CyclicRateMultiplier",

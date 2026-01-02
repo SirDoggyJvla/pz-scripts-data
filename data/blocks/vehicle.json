@@ -175,6 +175,11 @@
             "name": "suspensionStiffness"
         },
         {
+            "name": "template",
+            "description": "Uses a template script data for this vehicle.",
+            "allowedDuplicate": false
+        },
+        {
             "name": "textureDamage1Overlay"
         },
         {
