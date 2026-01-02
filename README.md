@@ -25,3 +25,4 @@ Parameters can have the following attributes:
 - `allowedDuplicate`: A boolean indicating whether the parameter can be duplicated.
 - `canBeEmpty`: A boolean indicating whether the parameter can be empty.
 - `itemTypes`: Specifies an array of the type of items the parameter is associated with (e.g., "vehicle", "item", etc.). Only for item scripts.
+- `parentsOnly`: A list of parent block types for which this parameter is applicable.

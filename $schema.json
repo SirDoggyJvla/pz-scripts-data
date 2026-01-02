@@ -76,6 +76,11 @@
             "type": "array",
             "description": "Specifies the type of item the parameter is associated with (e.g., 'vehicle', 'item', etc.). Only for item scripts.",
             "items": { "type": "string" }
+          },
+          "parentsOnly": {
+            "type": "array",
+            "description": "A list of parent block types for which this parameter is applicable.",
+            "items": { "type": "string" }
           }
         }
       }
