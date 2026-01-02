@@ -9,7 +9,8 @@
     ],
     "parameters": [
         {
-            "name": "row"
+            "name": "row",
+            "allowedDuplicate": true
         }
     ]
 }
