@@ -11,13 +11,13 @@
     "ID": {},
     "parameters": [
         {
-            "name": "itemType"
+            "name": "offset"
         },
         {
-            "name": "category"
+            "name": "extents"
         },
         {
-            "name": "durability"
+            "name": "rotate"
         }
     ]
 }

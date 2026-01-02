@@ -1,0 +1,12 @@
+{
+    "version": 1.0,
+    "$schema": "../../$schema.json",
+    "name": "door",
+    "description": "",
+    "shouldHaveParent": true,
+    "parents": [
+        "part"
+    ],
+    "ID": {},
+    "parameters": []
+}
