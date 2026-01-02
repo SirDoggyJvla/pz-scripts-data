@@ -180,7 +180,8 @@
             "allowedDuplicate": true
         },
         {
-            "name": "template!"
+            "name": "template!",
+            "allowedDuplicate": true
         },
         {
             "name": "textureDamage1Overlay"
