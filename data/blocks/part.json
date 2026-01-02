@@ -9,5 +9,12 @@
         "vehicle"
     ],
     "ID": {},
-    "parameters": []
+    "parameters": [
+        {
+            "name": "itemType"
+        },
+        {
+            "name": "category"
+        }
+    ]
 }

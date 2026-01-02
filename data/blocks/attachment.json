@@ -10,5 +10,21 @@
         "template"
     ],
     "ID": {},
-    "parameters": []
+    "parameters": [
+        {
+            "name": "offset"
+        },
+        {
+            "name": "rotate"
+        },
+        {
+            "name": "zoffset"
+        },
+        {
+            "name": "scale"
+        },
+        {
+            "name": "bone"
+        }
+    ]
 }

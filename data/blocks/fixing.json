@@ -8,5 +8,13 @@
         "module"
     ],
     "ID": {},
-    "parameters": []
+    "parameters": [
+        {
+            "name": "Fixer",
+            "allowedDuplicate": true
+        },
+        {
+            "name": "Require"
+        }
+    ]
 }

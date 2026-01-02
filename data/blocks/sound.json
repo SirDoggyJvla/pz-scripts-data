@@ -30,6 +30,9 @@
         },
         {
             "name": "maxInstancesPerEmitter"
+        },
+        {
+            "name": "is3D"
         }
     ]
 }

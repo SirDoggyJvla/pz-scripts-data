@@ -9,5 +9,18 @@
         "vehicle"
     ],
     "ID": {},
-    "parameters": []
+    "parameters": [
+        {
+            "name": "radius"
+        },
+        {
+            "name": "offset"
+        },
+        {
+            "name": "front"
+        },
+        {
+            "name": "width"
+        }
+    ]
 }

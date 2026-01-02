@@ -1,15 +1,11 @@
 {
     "version": 1.0,
     "$schema": "../../$schema.json",
-    "name": "container",
+    "name": "CraftLogic",
     "description": "",
     "shouldHaveParent": true,
     "parents": [
-        "part"
+        "components"
     ],
-    "parameters": [
-        {
-            "name": "capacity"
-        }
-    ]
+    "parameters": []
 }
