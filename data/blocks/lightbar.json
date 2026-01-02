@@ -8,5 +8,18 @@
         "template",
         "vehicle"
     ],
-    "parameters": []
+    "parameters": [
+        {
+            "name": "texture"
+        },
+        {
+            "name": "soundSiren"
+        },
+        {
+            "name": "leftCol"
+        },
+        {
+            "name": "rightCol"
+        }
+    ]
 }

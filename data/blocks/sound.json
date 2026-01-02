@@ -33,6 +33,48 @@
         },
         {
             "name": "is3D"
+        },
+        {
+            "name": "alarmLoop",
+            "parentsOnly": [
+                "vehicle",
+                "template"
+            ]
+        },
+        {
+            "name": "engine",
+            "parentsOnly": [
+                "vehicle",
+                "template"
+            ]
+        },
+        {
+            "name": "engineStart",
+            "parentsOnly": [
+                "vehicle",
+                "template"
+            ]
+        },
+        {
+            "name": "engineTurnOff",
+            "parentsOnly": [
+                "vehicle",
+                "template"
+            ]
+        },
+        {
+            "name": "horn",
+            "parentsOnly": [
+                "vehicle",
+                "template"
+            ]
+        },
+        {
+            "name": "ignitionFail",
+            "parentsOnly": [
+                "vehicle",
+                "template"
+            ]
         }
     ]
 }
