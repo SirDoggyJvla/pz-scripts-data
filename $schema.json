@@ -14,7 +14,23 @@
     },
     "ID": { 
       "type": "object",
-      "description": "Defines properties of the ID of the block."
+      "description": "Defines the ID properties for this block type.",
+      "properties": {
+        "parentsWithout": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "A list of block names that cannot be parents if this block has an ID."
+        },
+        "values": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "A list of allowed ID values for this block. If not given, any value is allowed."
+        },
+        "asType": {
+          "type": "boolean",
+          "description": "Specifies if the ID of the block should count as the block type. For example, components have specific definitions based on their ID. This means a script block needs to be defined with the name 'component <componentID>' as well as 'component' to cover all component types available with the 'values' attribute."
+        }
+      }
     },
     "shouldHaveParent": { 
       "type": "boolean",
@@ -32,7 +48,37 @@
     },
     "parameters": { 
       "type": "array",
-      "description": "A list of the parameters and their properties."
+      "description": "A list of parameters available for this block type.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The name of the parameter. (required)"
+          },
+          "#ref": {
+            "type": "string",
+            "description": "A reference to another block parameter."
+          },
+          "description": {
+            "type": "string",
+            "description": "A brief description of what the parameter does."
+          },
+          "allowedDuplicate": {
+            "type": "boolean",
+            "description": "Indicates whether the parameter can be duplicated."
+          },
+          "canBeEmpty": {
+            "type": "boolean",
+            "description": "Indicates whether the parameter can be empty."
+          },
+          "itemTypes": {
+            "type": "array",
+            "description": "Specifies the type of item the parameter is associated with (e.g., 'vehicle', 'item', etc.). Only for item scripts.",
+            "items": { "type": "string" }
+          }
+        }
+      }
     }
   },
   "additionalProperties": true
