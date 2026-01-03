@@ -30,7 +30,7 @@
                     ]
                 },
                 {
-                    "name": "mode",
+                    "name": "flags",
                     "type": "array",
                     "description": "Provides information about how the recipe impacts the items used in the crafting recipe or identified as valid items."
                 },
