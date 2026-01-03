@@ -71,6 +71,17 @@
                     "name": "flags",
                     "type": "array",
                     "description": "Flags determine how the fluid is impacted during the recipe or identified."
+                },
+                {
+                    "name": "mode",
+                    "type": "string",
+                    "description": "",
+                    "values": [
+                        "mixture",
+                        "exact",
+                        "primary",
+                        "anything"
+                    ]
                 }
             ]
         },
