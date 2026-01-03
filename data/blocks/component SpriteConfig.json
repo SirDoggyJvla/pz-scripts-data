@@ -19,6 +19,12 @@
         },
         {
             "name": "isProp"
+        },
+        {
+            "name": "OnIsValid"
+        },
+        {
+            "name": "TimedActionOnIsValid"
         }
     ]
 }
