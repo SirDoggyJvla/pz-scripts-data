@@ -43,6 +43,11 @@
                     "name": "overlayMapper",
                     "type": "boolean",
                     "description": "If provided, this input entry is used to determine the overlayMapper of the `craftRecipe`."
+                },
+                {
+                    "name": "tags",
+                    "type": "array",
+                    "description": "Tags are used to determine which items can be used as input."
                 }
             ]
         },
