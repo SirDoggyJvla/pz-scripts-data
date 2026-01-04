@@ -62,7 +62,8 @@
         },
         {
             "name": "tags",
-            "description": "Tags to define the special behavior of the recipe."
+            "description": "Tags to define the special behavior of the recipe.",
+            "required": true
         },
         {
             "name": "time",

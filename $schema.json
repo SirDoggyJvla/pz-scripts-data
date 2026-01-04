@@ -81,6 +81,18 @@
             "type": "array",
             "description": "A list of parent block types for which this parameter is applicable.",
             "items": { "type": "string" }
+          },
+          "required": {
+            "type": "boolean",
+            "description": "Indicates whether the parameter is required."
+          },
+          "default": {
+            "type": ["string", "number", "boolean", "array", "object"],
+            "description": "The default value for the parameter if not specified."
+          },
+          "type": {
+            "type": "string",
+            "description": "The data type of the parameter (e.g., 'string', 'number', 'boolean', etc.)."
           }
         }
       }

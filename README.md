@@ -26,3 +26,6 @@ Parameters can have the following attributes:
 - `canBeEmpty`: A boolean indicating whether the parameter can be empty.
 - `itemTypes`: Specifies an array of the type of items the parameter is associated with (e.g., "vehicle", "item", etc.). Only for item scripts.
 - `parentsOnly`: A list of parent block types for which this parameter is applicable.
+- `required`: A boolean indicating whether the parameter is required.
+- `default`: The default value of the parameter if not provided.
+- `type`: The data type of the parameter (e.g., "string", "float", "int", etc.).
