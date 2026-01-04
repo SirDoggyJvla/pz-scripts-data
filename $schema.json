@@ -92,7 +92,7 @@
           },
           "type": {
             "type": "string",
-            "description": "The data type of the parameter (e.g., 'string', 'number', 'boolean', etc.)."
+            "description": "The data type of the parameter (e.g., 'string', 'int', 'float', 'boolean', etc.)."
           }
         }
       }
