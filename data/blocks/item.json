@@ -2292,8 +2292,7 @@
                 "weapon",
                 "weaponpart"
             ],
-            "type": "array",
-            "default": []
+            "type": "array"
         },
         {
             "name": "ThirstChange",
