@@ -2723,8 +2723,13 @@ parameters:
     main: float
   default: 1.0
 - name: VisualAid
-  itemTypes:
-  - clothing
+  description: |-
+    Sets an item as a visual aid, such as glasses where [short sighted](https://pzwiki.net/wiki/Short_Sighted) characters will see blurry without them.
+
+    While this parameter can be set for any items, pratically only worn items (clothing) will have an effect.
+  type:
+    main: boolean
+  default: false
 - name: WaterResistance
   description: |-
     [WaterResistance](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-waterresistance) is used to define how much the clothing item will resist water. The higher the value, the more resistant the clothing item will be to water. A value of `1.0` means the clothing item is fully waterproof, while a value of `0.0` means it is not waterproof at all.
