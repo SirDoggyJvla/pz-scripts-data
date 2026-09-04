@@ -482,8 +482,8 @@
   "animation": {
     "ID": {},
     "children": [
-      "CopyFrame",
-      "CopyFrames"
+      "CopyFrames",
+      "CopyFrame"
     ],
     "description": "It is unknown what this block does.",
     "name": "animation",
@@ -992,18 +992,18 @@
       "entity"
     ],
     "variants": [
-      "component SpriteOverlayConfig",
-      "component WallCoveringConfig",
       "component ContextMenuConfig",
-      "component DryingCraftLogic",
+      "component WallCoveringConfig",
       "component CraftRecipe",
-      "component UiConfig",
-      "component CraftBench",
-      "component Durability",
-      "component CraftBenchSounds",
-      "component FluidContainer",
       "component Resources",
-      "component SpriteConfig"
+      "component FluidContainer",
+      "component SpriteConfig",
+      "component Durability",
+      "component DryingCraftLogic",
+      "component CraftBenchSounds",
+      "component SpriteOverlayConfig",
+      "component CraftBench",
+      "component UiConfig"
     ]
   },
   "component ContextMenuConfig": {
@@ -1567,10 +1567,10 @@
       }
     },
     "children": [
-      "inputs",
-      "itemMapper",
+      "overlayMapper",
       "outputs",
-      "overlayMapper"
+      "inputs",
+      "itemMapper"
     ],
     "description": "The 'craftRecipe' script block is used to define a crafting recipe, which allows players to craft items or tiles in the game based on the parent script block. For example, a craftRecipe defined inside a [module](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/module.html) will be a recipe to craft an item usually, while when defined inside an [entity](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/entity.html) it will be the building recipe for that entity.\n\nA craftRecipe will usually require an [inputs](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/inputs.html) and [outputs](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/outputs.html) block. Other parameters are used to define properties of this recipe, such as the [time](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html#time) it takes to craft or the [XP awarded](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html#xpaward) for crafting it.\n\nFor example:\n```java\nmodule yourModule /* or Base */\n{\n    craftRecipe yourRecipeID\n    {\n        ...\n    }\n}\n```\n\nSome methods to modify existing recipes are documented on the [wiki](https://pzwiki.net/wiki/CraftRecipe#Modifying_existing_recipes).\n\nTo define a translation for this recipe, you need to create an entry in the translation file [Recipes.json](https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#recipes). The translation entry should be formatted like this:\n```json\n{\n  \"yourRecipeID\": \"Your recipe\"\n}\n```\n\nNotice how you shouldn't use the [module](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/module.html) in the translation file key and only the craftRecipe ID.\n\nHere's an example of a craftRecipe with some parameters defined:\n```java\ncraftRecipe SawLogs\n{\n    timedAction = SawLogs,\n    Time = 230,\n    Tags = InHandCraft;CanBeDoneFromFloor,\n    category = Carpentry,\n    xpAward = Woodwork:5,\n    inputs\n    {\n        item 1 [Base.Log] flags[Prop2],\n        item 1 tags[Saw] mode:keep flags[MayDegradeLight;Prop1],\n    }\n    outputs\n    {\n        item 3 Base.Plank,\n    }\n}\n```\n\nOr:\n```java\ncraftRecipe CarveWhistle\n{\n    time = 200,\n    tags = AnySurfaceCraft;Survivalist,\n    category = Carving,\n    xpAward = Carving:60,\n    SkillRequired = Carving:6,\n    needTobeLearn = true,\n    AutoLearnAny = Carving:8,\n    timedAction = SharpenStake,\n    inputs\n    {\n        item 1 tags[DrillWood;DrillMetal;DrillWoodPoor] mode:keep flags[MayDegradeLight],\n        item 1 tags[SharpKnife] mode:keep flags[MayDegradeLight],\n        item 1 [Base.SmallAnimalBone] flags[Prop2;AllowDestroyedItem],\n    }\n    outputs\n    {\n        item 1 Base.Whistle_Bone,\n    }\n}\n```\n\nAnd a more advanced one:\n```java\ncraftRecipe RefillHurricaneLantern\n{\n    timedAction = Making,\n    Time = 50,\n    OnCreate = Recipe.OnCreate.RefillHurricaneLantern,\n    /* OnTest = Recipe.OnTest.RefillHurricaneLantern, */\n    Tags = InHandCraft;CanBeDoneInDark,\n    category = Miscellaneous, /*category = Survival,*/\n    inputs\n    {\n        item 1 [Base.Lantern_Hurricane;Base.Lantern_Hurricane_Copper;Base.Lantern_Hurricane_Forged;Base.Lantern_Hurricane_Gold;Base.Lantern_Hurricane_Silver] mode:destroy flags[NotFull;AllowFavorite;InheritFavorite;ItemCount] mappers[LampMapper],\n        item 1 [*],\n        -fluid 1.0 [Petrol],\n    }\n    outputs\n    {\n        item 1 mapper:LampMapper,\n    }\n    itemMapper LampMapper\n    {\n        Base.Lantern_Hurricane = Base.Lantern_Hurricane,\n        Base.Lantern_Hurricane_Copper = Base.Lantern_Hurricane_Copper,\n        Base.Lantern_Hurricane_Forged = Base.Lantern_Hurricane_Forged,\n        Base.Lantern_Hurricane_Gold = Base.Lantern_Hurricane_Gold,\n        Base.Lantern_Hurricane_Silver = Base.Lantern_Hurricane_Silver,\n\n        default = Base.Lantern_Hurricane,\n    }\n}\n```",
     "name": "craftRecipe",
@@ -1950,19 +1950,19 @@
       ]
     },
     "children": [
-      "component SpriteOverlayConfig",
-      "component WallCoveringConfig",
       "components",
-      "component",
       "component ContextMenuConfig",
-      "component DryingCraftLogic",
+      "component WallCoveringConfig",
       "component CraftRecipe",
-      "component UiConfig",
-      "component CraftBench",
-      "component CraftBenchSounds",
-      "component FluidContainer",
       "component Resources",
-      "component SpriteConfig"
+      "component FluidContainer",
+      "component SpriteConfig",
+      "component",
+      "component DryingCraftLogic",
+      "component CraftBenchSounds",
+      "component SpriteOverlayConfig",
+      "component CraftBench",
+      "component UiConfig"
     ],
     "description": "Defines a tile with special properties.",
     "name": "entity",
@@ -2160,10 +2160,10 @@
   "fluid": {
     "ID": {},
     "children": [
-      "Categories",
       "BlendWhiteList",
       "Poison",
-      "Properties"
+      "Properties",
+      "Categories"
     ],
     "description": "Create a new fluid definition. Different properties can be provided for the fluid v ia the use of different children blocks:\n- [Properties](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/properties.html) is used to indicate the various stats change that drinking this fluid would cause to the player.\n- [Categories](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/categories.html) act as tags for the fluid, to easily identify it.\n- [BlendWhiteList](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/blendwhitelist.html) and [BlendBlackList](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/blendblacklist.html) are used to provide rules for the blending of this fluid with other fluids.\n- [Poison](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/poison.html) is used to define poison properties for the fluid.",
     "name": "fluid",
@@ -2324,10 +2324,10 @@
       }
     },
     "children": [
-      "component",
       "component ContextMenuConfig",
+      "component FluidContainer",
       "component Durability",
-      "component FluidContainer"
+      "component"
     ],
     "description": "The item block is used to create items in the game, from weapons to food and clothing. The parameters available in this block mostly depend on the type of item you are creating, set with [ItemType](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-itemtype).\n\nTo get started, create a simple item structure by setting that parameter up correctly, then add more parameters as you need. For example, for a normal item:\n```cpp\nmodule yourModule\n{\n  item yourID\n  {\n    ItemType = base:normal,\n    ...\n  }\n}\n```\n\nTo add a name to display for your item, you need to add the item full type, that is its `module.id`, inside the [ItemName](https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#itemname) translation file. Taking the example from above, your translation file would be:\n```json\n{\n  \"yourModule.yourID\": \"Your Item Name\"\n}\n```",
     "name": "item",
@@ -6751,31 +6751,31 @@
   "module": {
     "ID": {},
     "children": [
-      "animation",
-      "timedAction",
-      "model",
+      "fluid",
+      "mannequin",
+      "clock",
+      "ragdoll",
       "soundTimeline",
-      "entity",
       "animationsMesh",
+      "imports",
+      "energy",
+      "character_profession_definition",
+      "physicsHitReaction",
+      "model",
+      "character_trait_definition",
+      "xuiSkin",
+      "animation",
       "template",
+      "craftRecipe",
+      "sound",
+      "vehicleEngineRPM",
+      "timedAction",
+      "physicsShape",
+      "entity",
       "fixing",
       "vehicle",
-      "ragdoll",
-      "physicsHitReaction",
-      "craftRecipe",
-      "evolvedrecipe",
-      "xuiSkin",
-      "character_profession_definition",
-      "clock",
-      "fluid",
-      "physicsShape",
-      "energy",
-      "vehicleEngineRPM",
-      "mannequin",
-      "imports",
-      "character_trait_definition",
       "item",
-      "sound"
+      "evolvedrecipe"
     ],
     "description": "A module serves as a namespace for your scripts and is the barebone for most scripts you will create in your mod. The game's namespace is `Base`, and while you can insert in it, it is recommended to use your own module for your mod's scripts to avoid conflicts with the game and other mods.\n\nTo define a module, you need to create a block as follows, by changing the ID to a unique name for your mods:\n```cpp\nmodule yourID\n{\n  ...\n}\n```\n\nMost scripts that are defined in a module will need to be refered to by their 'full type', that is `module.id`, but this is a bit inconsistent as some places where a script block needs to be refered to require no module reference. For example, for an item, you can refer to it by its full type `yourModule.yourItemID`.",
     "name": "module",
@@ -6898,13 +6898,13 @@
   "part": {
     "ID": {},
     "children": [
-      "model",
       "table",
-      "container",
-      "door",
-      "lua",
       "anim",
-      "window"
+      "window",
+      "lua",
+      "model",
+      "door",
+      "container"
     ],
     "description": "",
     "name": "part",
@@ -6948,9 +6948,9 @@
   "passenger": {
     "ID": {},
     "children": [
+      "anim",
       "position",
-      "switchSeat",
-      "anim"
+      "switchSeat"
     ],
     "description": "Defines a passenger position in a vehicle script.",
     "name": "passenger",
@@ -7475,13 +7475,13 @@
   "template": {
     "ID": {},
     "children": [
-      "wheel",
-      "skin",
-      "physics",
-      "part",
-      "attachment",
-      "area",
       "lightbar",
+      "area",
+      "physics",
+      "attachment",
+      "skin",
+      "wheel",
+      "part",
       "sound"
     ],
     "description": "",
@@ -7493,10 +7493,10 @@
   },
   "tile": {
     "children": [
-      "cylinder",
-      "box",
       "polygon",
-      "Properties"
+      "Properties",
+      "box",
+      "cylinder"
     ],
     "description": "Defines some tile properties of a specific tile on a tileset.",
     "name": "tile",
@@ -7717,15 +7717,15 @@
   "vehicle": {
     "ID": {},
     "children": [
+      "lightbar",
+      "area",
+      "physics",
+      "attachment",
+      "skin",
       "wheel",
       "passenger",
       "model",
-      "skin",
-      "physics",
       "part",
-      "attachment",
-      "area",
-      "lightbar",
       "sound"
     ],
     "description": "Defines a vehicle.",
@@ -8340,11 +8340,11 @@
       ]
     },
     "children": [
-      "entity",
-      "ISBaseComponentPanel",
       "ISTableLayoutCell",
+      "imports",
       "colors",
-      "imports"
+      "entity",
+      "ISBaseComponentPanel"
     ],
     "description": "Defines a XUI interface skin.",
     "name": "xuiSkin",
